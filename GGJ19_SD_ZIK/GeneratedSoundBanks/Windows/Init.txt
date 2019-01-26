@@ -1,3 +1,19 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2591331092	ST_Time			\Default Work Unit\ST_Time	
+	3101108469	ST_Game_Running			\Default Work Unit\ST_Game_Running	
+	3384181978	ST_Player_Confort			\Default Work Unit\ST_Player_Confort	
+
+State	ID	Name	State Group			Notes
+	0	None	ST_Time			
+	311764537	Day	ST_Time			
+	1011622525	Night	ST_Time			
+	0	None	ST_Game_Running			
+	319258907	Paused	ST_Game_Running			
+	3863236874	Running	ST_Game_Running			
+	0	None	ST_Player_Confort			
+	979470758	Yes	ST_Player_Confort			
+	1668749452	No	ST_Player_Confort			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1162281553	Bus_Music			\Default Work Unit\Master Audio Bus\Bus_Music	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

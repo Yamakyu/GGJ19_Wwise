@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{25E0D606-1B98-42F5-AD6D-99E7711E1D1A}" SchemaVersion="89">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{25E0D606-1B98-42F5-AD6D-99E7711E1D1A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{25E0D606-1B98-42F5-AD6D-99E7711E1D1A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SW_Game_Status" ID="{F3B78071-CAB2-487F-8B93-98FD2D5AAD2E}">
+					<ChildrenList>
+						<Switch Name="Menu" ID="{FAA3D602-3DE8-41CB-B785-29B67F6DBB0A}"/>
+						<Switch Name="Game" ID="{67957CED-E95C-4AAB-9A38-C40F7C557A43}"/>
+						<Switch Name="Game_Over" ID="{A28E0553-A562-459D-ABCD-9518C2E443B7}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
