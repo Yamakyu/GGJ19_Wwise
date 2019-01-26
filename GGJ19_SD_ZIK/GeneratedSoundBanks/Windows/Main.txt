@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3157003241	Test			\Default Work Unit\Test	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	610216679	TATOE	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\TATOE_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\TATOE		124480
+

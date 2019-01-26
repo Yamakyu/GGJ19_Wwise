@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" SchemaVersion="89">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Test" ID="{7AF8896A-01DA-4D1B-9D19-978039F91224}">
+					<ChildrenList>
+						<Action Name="" ID="{15FE7C78-BEC0-41E6-AAEF-D04E1ADCB20B}" ShortID="408327056">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TATOE" ID="{F3673A7D-391E-4C0D-8E35-63DC31AEF413}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
