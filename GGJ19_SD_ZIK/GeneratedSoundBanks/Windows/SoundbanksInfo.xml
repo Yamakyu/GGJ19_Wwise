@@ -25,8 +25,8 @@
 				<Event Id="496664849" Name="Amb_Creep" ObjectPath="\Events\Default Work Unit\Ambiance\Amb_Creep" MaxAttenuation="0.000000"/>
 				<Event Id="2125145056" Name="Amb_Night" ObjectPath="\Events\Default Work Unit\Ambiance\Amb_Night" MaxAttenuation="0.000000"/>
 				<Event Id="1592801615" Name="Amb_Street" ObjectPath="\Events\Default Work Unit\Ambiance\Amb_Street" MaxAttenuation="0.000000"/>
-				<Event Id="1185755620" Name="Env_Greet_Mean" ObjectPath="\Events\Default Work Unit\Environnement\Env_Greet_Mean" MaxAttenuation="0.000000"/>
-				<Event Id="1954323868" Name="Env_Greet_Nice" ObjectPath="\Events\Default Work Unit\Environnement\Env_Greet_Nice" MaxAttenuation="0.000000"/>
+				<Event Id="1185755620" Name="Env_Greet_Mean" ObjectPath="\Events\Default Work Unit\Environnement\Env_Greet_Mean"/>
+				<Event Id="1954323868" Name="Env_Greet_Nice" ObjectPath="\Events\Default Work Unit\Environnement\Env_Greet_Nice"/>
 				<Event Id="733168346" Name="Game_Start" ObjectPath="\Events\Default Work Unit\Game_Start"/>
 				<Event Id="1842260389" Name="P_Comfort_Create" ObjectPath="\Events\Default Work Unit\Player\P_Comfort_Create"/>
 				<Event Id="2748895709" Name="P_Comfort_Extend" ObjectPath="\Events\Default Work Unit\Player\P_Comfort_Extend" MaxAttenuation="0.000000"/>
@@ -40,6 +40,10 @@
 				<File Id="210929948" Language="SFX">
 					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001.wav</ShortName>
 					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001_56D34C19.wem</Path>
+				</File>
+				<File Id="396802700" Language="SFX">
+					<ShortName>SFX_Greetings_Nice-190126_2310.wav</ShortName>
+					<Path>SFX\SFX_Greetings_Nice-190126_2310_56D34C19.wem</Path>
 				</File>
 				<File Id="459188833" Language="SFX">
 					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003.wav</ShortName>
@@ -56,6 +60,10 @@
 				<File Id="867255748" Language="SFX">
 					<ShortName>SFX_Player_Comfort_Create_-_190126_21h17.wav</ShortName>
 					<Path>SFX\SFX_Player_Comfort_Create_-_190126_21h17_56D34C19.wem</Path>
+				</File>
+				<File Id="898649096" Language="SFX">
+					<ShortName>SFX_Greetings_Mean-190127_0008.wav</ShortName>
+					<Path>SFX\SFX_Greetings_Mean-190127_0008_56D34C19.wem</Path>
 				</File>
 				<File Id="908068609" Language="SFX">
 					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-002.wav</ShortName>

@@ -227,6 +227,11 @@
 												<Value>1</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
@@ -389,6 +394,52 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="SFX_Player_Comfort_Create_-_190126_21h17" ID="{CB56B0FB-E29C-4ADF-95C2-8E3B3E5E2F76}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Environment" ID="{3B798693-07CA-4184-BE06-4F18A8F25DA2}" ShortID="12399996">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Sound Name="SFX_Greetings_Mean-190127_0008" ID="{BFBFD158-042B-4A19-BA1A-493BBDA4E974}" ShortID="75372467">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Greetings_Mean-190127_0008" ID="{BFB9A011-FF6F-459C-ACD5-1C50AC4DB7ED}" ShortID="898649096">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Greetings_Mean-190127_0008.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Greetings_Mean-190127_0008" ID="{BFB9A011-FF6F-459C-ACD5-1C50AC4DB7ED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Greetings_Nice-190126_2310" ID="{BEAEA983-A88F-4E07-901C-75C4565D9A47}" ShortID="550610671">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Greetings_Nice-190126_2310" ID="{D0623E8C-7F7D-4036-8BD1-6FE54960396A}" ShortID="396802700">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Greetings_Nice-190126_2310.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Greetings_Nice-190126_2310" ID="{D0623E8C-7F7D-4036-8BD1-6FE54960396A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

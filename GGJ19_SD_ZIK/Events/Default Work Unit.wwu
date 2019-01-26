@@ -21,8 +21,34 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Env_Greet_Nice" ID="{552B5C25-08FE-4EAA-8910-6472CD586465}"/>
-						<Event Name="Env_Greet_Mean" ID="{C95FEC2A-3245-4670-BBE3-38DC710A145C}"/>
+						<Event Name="Env_Greet_Nice" ID="{552B5C25-08FE-4EAA-8910-6472CD586465}">
+							<ChildrenList>
+								<Action Name="" ID="{0368F459-6869-4699-8129-6DD37F733E69}" ShortID="1067757115">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Greetings_Nice-190126_2310" ID="{BEAEA983-A88F-4E07-901C-75C4565D9A47}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Env_Greet_Mean" ID="{C95FEC2A-3245-4670-BBE3-38DC710A145C}">
+							<ChildrenList>
+								<Action Name="" ID="{FCE2C0CD-2F00-42C0-9DBC-E3F0766DF4D9}" ShortID="261001980">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Greetings_Mean-190127_0008" ID="{BFBFD158-042B-4A19-BA1A-493BBDA4E974}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{D4733C7E-FBD1-4223-8774-4461910758AC}" ShortID="276758351">
