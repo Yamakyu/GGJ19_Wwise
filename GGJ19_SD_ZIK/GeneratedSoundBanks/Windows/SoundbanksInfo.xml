@@ -21,14 +21,21 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test"/>
+				<Event Id="4024420889" Name="Amb_Cafe" ObjectPath="\Events\Default Work Unit\Ambiance\Amb_Cafe" MaxAttenuation="0.000000"/>
+				<Event Id="496664849" Name="Amb_Creep" ObjectPath="\Events\Default Work Unit\Ambiance\Amb_Creep" MaxAttenuation="0.000000"/>
+				<Event Id="2125145056" Name="Amb_Night" ObjectPath="\Events\Default Work Unit\Ambiance\Amb_Night" MaxAttenuation="0.000000"/>
+				<Event Id="1592801615" Name="Amb_Street" ObjectPath="\Events\Default Work Unit\Ambiance\Amb_Street" MaxAttenuation="0.000000"/>
+				<Event Id="1185755620" Name="Env_Greet_Mean" ObjectPath="\Events\Default Work Unit\Environnement\Env_Greet_Mean" MaxAttenuation="0.000000"/>
+				<Event Id="1954323868" Name="Env_Greet_Nice" ObjectPath="\Events\Default Work Unit\Environnement\Env_Greet_Nice" MaxAttenuation="0.000000"/>
+				<Event Id="733168346" Name="Game_Start" ObjectPath="\Events\Default Work Unit\Game_Start" MaxAttenuation="0.000000"/>
+				<Event Id="1842260389" Name="P_Comfort_Create" ObjectPath="\Events\Default Work Unit\Player\P_Comfort_Create" MaxAttenuation="0.000000"/>
+				<Event Id="2748895709" Name="P_Comfort_Extend" ObjectPath="\Events\Default Work Unit\Player\P_Comfort_Extend" MaxAttenuation="0.000000"/>
+				<Event Id="844915450" Name="P_GameOver" ObjectPath="\Events\Default Work Unit\Player\P_GameOver" MaxAttenuation="0.000000"/>
+				<Event Id="3061350027" Name="P_Success" ObjectPath="\Events\Default Work Unit\Player\P_Success" MaxAttenuation="0.000000"/>
+				<Event Id="3240909698" Name="P_Success_Final" ObjectPath="\Events\Default Work Unit\Player\P_Success_Final" MaxAttenuation="0.000000"/>
+				<Event Id="1065524949" Name="P_Walk" ObjectPath="\Events\Default Work Unit\Player\P_Walk" MaxAttenuation="0.000000"/>
+				<Event Id="4256079544" Name="P_Walk_Stop" ObjectPath="\Events\Default Work Unit\Player\P_Walk_Stop" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="610216679" Language="SFX">
-					<ShortName>TATOE.wav</ShortName>
-					<Path>SFX\TATOE_56D34C19.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

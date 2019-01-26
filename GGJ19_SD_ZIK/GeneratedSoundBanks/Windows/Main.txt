@@ -1,6 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3157003241	Test			\Default Work Unit\Test	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	610216679	TATOE	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\TATOE_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\TATOE		124480
+	496664849	Amb_Creep			\Default Work Unit\Ambiance\Amb_Creep	
+	733168346	Game_Start			\Default Work Unit\Game_Start	
+	844915450	P_GameOver			\Default Work Unit\Player\P_GameOver	
+	1065524949	P_Walk			\Default Work Unit\Player\P_Walk	
+	1185755620	Env_Greet_Mean			\Default Work Unit\Environnement\Env_Greet_Mean	
+	1592801615	Amb_Street			\Default Work Unit\Ambiance\Amb_Street	
+	1842260389	P_Comfort_Create			\Default Work Unit\Player\P_Comfort_Create	
+	1954323868	Env_Greet_Nice			\Default Work Unit\Environnement\Env_Greet_Nice	
+	2125145056	Amb_Night			\Default Work Unit\Ambiance\Amb_Night	
+	2748895709	P_Comfort_Extend			\Default Work Unit\Player\P_Comfort_Extend	
+	3061350027	P_Success			\Default Work Unit\Player\P_Success	
+	3240909698	P_Success_Final			\Default Work Unit\Player\P_Success_Final	
+	4024420889	Amb_Cafe			\Default Work Unit\Ambiance\Amb_Cafe	
+	4256079544	P_Walk_Stop			\Default Work Unit\Player\P_Walk_Stop	
 

@@ -3,17 +3,55 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Test" ID="{7AF8896A-01DA-4D1B-9D19-978039F91224}">
+				<Folder Name="Ambiance" ID="{C9E8D81B-572C-4691-A2E6-9BD0098BC06C}" ShortID="872966726">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{15FE7C78-BEC0-41E6-AAEF-D04E1ADCB20B}" ShortID="408327056">
+						<Event Name="Amb_Cafe" ID="{A277B63D-CF75-4278-AB7D-6AFD2D9A1E9E}"/>
+						<Event Name="Amb_Creep" ID="{57BE963C-1014-432E-9627-9A6B86BE8579}"/>
+						<Event Name="Amb_Night" ID="{4DB4C825-A2C0-41B2-9A2C-7B824BE5A342}"/>
+						<Event Name="Amb_Street" ID="{762D231F-E452-434A-94DE-9BDFF21EE810}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environnement" ID="{5F50039A-FFB7-4A80-8DC1-A2FB205CDB27}" ShortID="596454361">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="20"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Env_Greet_Nice" ID="{552B5C25-08FE-4EAA-8910-6472CD586465}"/>
+						<Event Name="Env_Greet_Mean" ID="{C95FEC2A-3245-4670-BBE3-38DC710A145C}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{D4733C7E-FBD1-4223-8774-4461910758AC}" ShortID="276758351">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="P_Success_Final" ID="{1170453B-03F8-4692-A49A-5B36FAE06CBB}"/>
+						<Event Name="P_Comfort_Create" ID="{4F615B21-9EF8-4C53-BD80-312D793E5673}"/>
+						<Event Name="P_Walk_Stop" ID="{16567D2E-FFC0-435C-A959-93AF1B9021BC}"/>
+						<Event Name="P_Walk" ID="{7AF8896A-01DA-4D1B-9D19-978039F91224}"/>
+						<Event Name="P_Comfort_Extend" ID="{C86D8A28-B82C-48B1-B44D-F9985AC4AA81}"/>
+						<Event Name="P_Success" ID="{8D371FCA-1D30-4A49-A626-DCF93EAAE609}"/>
+						<Event Name="P_GameOver" ID="{17B969FB-9965-47F7-A7B7-AA90DA1CB7F9}"/>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Game_Start" ID="{A41DD98D-7ACA-45B6-8D1E-B30CCF132E26}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{8D26E89C-0BC6-442A-ACF6-D53ACE29B9DA}" ShortID="824421685">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TATOE" ID="{F3673A7D-391E-4C0D-8E35-63DC31AEF413}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
-								</Reference>
-							</ReferenceList>
+							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>
