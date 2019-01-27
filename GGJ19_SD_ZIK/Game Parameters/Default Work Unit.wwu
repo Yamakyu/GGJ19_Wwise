@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{2C546920-A271-4A22-9A9A-E8FFBC421728}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="RTPC_D_Closest_Zone" ID="{EE72FDFA-1938-41DF-B8F3-5BB3585E6C66}"/>
+				<GameParameter Name="RTPC_Health" ID="{49C28716-A5C6-4964-B8B9-5131ADBC86D7}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

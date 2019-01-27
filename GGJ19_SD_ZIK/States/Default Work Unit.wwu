@@ -40,6 +40,13 @@
 						<State Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="ST_Close_Home" ID="{20F1CD12-AD62-4F7F-B925-51642DFF4907}">
+					<ChildrenList>
+						<State Name="None" ID="{4AAFDFB3-3E9E-4B9E-B68C-0EB2E032EBF1}"/>
+						<State Name="Close" ID="{B598D438-8887-4E86-A374-DEF11A16988B}"/>
+						<State Name="Affar" ID="{5ACEB667-348B-4720-9C73-85C7AAC95781}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
