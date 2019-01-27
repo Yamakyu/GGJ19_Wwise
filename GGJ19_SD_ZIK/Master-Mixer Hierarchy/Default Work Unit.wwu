@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{0275349E-240F-45D8-AD73-1AB6A3C01222}" WorkUnitID="{9398E0C9-8414-4E1E-B5A4-B52549271481}"/>
@@ -11,7 +18,234 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Bus_SFX" ID="{927138BA-A980-4934-B3A9-8985E0E1CD77}"/>
-						<Bus Name="Bus_Music" ID="{0F47FC40-E6CA-4E24-8840-EBC653245852}"/>
+						<Bus Name="Bus_Music" ID="{0F47FC40-E6CA-4E24-8840-EBC653245852}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Compressor (Custom)" ID="{F799A2BA-822F-45ED-893F-8EEE73D8EF1C}" ShortID="656224596" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<PropertyList>
+												<Property Name="AttackTime" Type="Real32" Value="0"/>
+												<Property Name="OutputGain" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{86DC2C9D-F75F-481C-9633-C593FC14BDE8}" ShortID="155528077">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="RTPC_D_Closest_Zone" ID="{EE72FDFA-1938-41DF-B8F3-5BB3585E6C66}" WorkUnitID="{2C546920-A271-4A22-9A9A-E8FFBC421728}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{F9AC273C-4C82-4099-93CE-C717BD7262AB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>3</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>3.50895</XPos>
+																		<YPos>6.45526</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>4.18146</XPos>
+																		<YPos>12.54855</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>4.56568</XPos>
+																		<YPos>16.13848</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>6.20316</XPos>
+																		<YPos>22.67424</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>10</XPos>
+																		<YPos>25</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Ratio" Type="Real32" Value="1">
+													<RTPCList>
+														<RTPC Name="" ID="{378ED0A9-5E29-4063-BBC6-1BFEF7252BD6}" ShortID="82767039">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="RTPC_D_Closest_Zone" ID="{EE72FDFA-1938-41DF-B8F3-5BB3585E6C66}" WorkUnitID="{2C546920-A271-4A22-9A9A-E8FFBC421728}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{AED19E45-0CE8-43C8-B890-65C2424A20A5}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>1</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>2.98817</XPos>
+																		<YPos>1</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>4.01186</XPos>
+																		<YPos>1.62068</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>10</XPos>
+																		<YPos>11.87931</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="ReleaseTime" Type="Real32" Value="2"/>
+												<Property Name="Threshold" Type="Real32" Value="-50"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Tremolo (Custom)" ID="{31A5EDC0-C7DE-454C-975B-57012007B593}" ShortID="397492590" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<PropertyList>
+												<Property Name="ModDepth" Type="Real32" Value="0">
+													<RTPCList>
+														<RTPC Name="" ID="{A5745611-C855-407A-85CC-982102005DE2}" ShortID="207751024">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="RTPC_D_Closest_Zone" ID="{EE72FDFA-1938-41DF-B8F3-5BB3585E6C66}" WorkUnitID="{2C546920-A271-4A22-9A9A-E8FFBC421728}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5FA26EA5-82F6-4DFC-B14F-C689F92829E6}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>3</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>4.20117</XPos>
+																		<YPos>75.1421</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>10</XPos>
+																		<YPos>100</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="ModFrequency" Type="Real32" Value="0.02">
+													<RTPCList>
+														<RTPC Name="" ID="{A17489F7-A0A5-41E5-BB25-D1375AED0F79}" ShortID="107709453">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="RTPC_D_Closest_Zone" ID="{EE72FDFA-1938-41DF-B8F3-5BB3585E6C66}" WorkUnitID="{2C546920-A271-4A22-9A9A-E8FFBC421728}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{A5645982-C52C-4425-A35E-3E83FC6BA483}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="5"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>1</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>3.01775</XPos>
+																		<YPos>1.06935</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>3.04734</XPos>
+																		<YPos>250</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>10</XPos>
+																		<YPos>250</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="OutputGain" Type="Real32">
+													<RTPCList>
+														<RTPC Name="" ID="{07381641-0186-488F-983B-201D74767272}" ShortID="495617679">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="RTPC_D_Closest_Zone" ID="{EE72FDFA-1938-41DF-B8F3-5BB3585E6C66}" WorkUnitID="{2C546920-A271-4A22-9A9A-E8FFBC421728}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{811904A8-81A9-4FCE-A5C3-AA432AB0660E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>3.03747534516765</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0.98837</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>10</XPos>
+																		<YPos>3</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

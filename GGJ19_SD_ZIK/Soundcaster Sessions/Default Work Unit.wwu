@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9BFB1F71-7D12-4DFE-828E-73BD917A0D0B}" SchemaVersion="89">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{9BFB1F71-7D12-4DFE-828E-73BD917A0D0B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9BFB1F71-7D12-4DFE-828E-73BD917A0D0B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music_SC" ID="{DAF92520-EC42-475D-B0BE-9EB66A40FF3F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Game_Start" ID="{A41DD98D-7ACA-45B6-8D1E-B30CCF132E26}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps v2" ID="{3E7F97F2-AE42-40A1-A48F-D8CDDBEE08FB}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_D_Closest_Zone" ID="{EE72FDFA-1938-41DF-B8F3-5BB3585E6C66}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Health" ID="{49C28716-A5C6-4964-B8B9-5131ADBC86D7}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Running" ID="{616F3CA1-B418-412D-BF96-AB904D1BAE29}"/>
+						<CurrentStateRef Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
+						<CurrentStateRef Name="Yes" ID="{2663488A-2F78-4993-8225-163E7F327CD6}"/>
+						<CurrentStateRef Name="Affar" ID="{5ACEB667-348B-4720-9C73-85C7AAC95781}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Game" ID="{67957CED-E95C-4AAB-9A38-C40F7C557A43}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

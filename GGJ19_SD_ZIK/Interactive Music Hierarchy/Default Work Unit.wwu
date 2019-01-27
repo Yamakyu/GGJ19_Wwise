@@ -9,7 +9,7 @@
 						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -22,9 +22,9 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="Comf_The_Game_-_ZIK_v0_0_1" ID="{C81D63B5-162C-466E-B159-B523DA86E1AF}" ShortID="694169729">
+						<MusicSegment Name="Main_Music" ID="{4A5048A0-5D6D-44D5-9A41-2BA8E2CD9D76}" ShortID="378236727">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="29640"/>
+								<Property Name="EndPosition" Type="Real64" Value="79545.4583333333"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -35,20 +35,48 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="Comf_The_Game_-_ZIK_v0_0_1" ID="{C6FE239A-6B84-4153-A2AD-9953EFE2EDF4}" ShortID="991879497">
+								<MusicTrack Name="BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001" ID="{0D3E0147-6C24-4101-B8C8-612F6253B2C4}" ShortID="435039778">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Comf_The_Game_-_ZIK_v0_0_1" ID="{87FA70EA-BF53-4B14-956A-F3A7DAC022BD}" ShortID="200895156">
+										<AudioFileSource Name="02-BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001" ID="{108FC3AF-49CF-405A-87A2-D52E0BAE75D5}" ShortID="851105092">
 											<Language>SFX</Language>
-											<AudioFile>Comf_The_Game_-_ZIK_v0.0.1.wav</AudioFile>
+											<AudioFile>02-BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="ST_Time" ID="{EC2E261E-2C20-4725-A621-723BEB9A61CB}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
+												<State Name="" ID="{5A93BFD6-9FD4-4DD1-9569-16A30E95D1F0}" ShortID="161294149"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
+												<State Name="" ID="{A31C4AAB-C353-407F-AAF9-D3CDB8F644A3}" ShortID="141941914">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="9"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{CF3B9164-4108-44CD-B21E-D5E76BCC2342}">
+										<MusicTransition Name="Root" ID="{D2B55444-E9D1-4761-807E-1AAA690A6CC7}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -56,75 +84,230 @@
 										</MusicTransition>
 									</TransitionList>
 									<SequenceList>
-										<MusicTrackSequence Name="" ID="{08B92A4C-EA0D-4EA8-8E59-55BE3792371D}">
+										<MusicTrackSequence Name="" ID="{A2A875BF-5E0C-48C6-8AB7-29622961A76A}">
 											<ClipList>
-												<MusicClip Name="Comf_The_Game_-_ZIK_v0_0_1" ID="{BD0E91BB-D089-4EF4-AECC-A652B4BE4339}">
+												<MusicClip Name="02-BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001" ID="{05E01C4F-9ACB-4B9C-8A2C-A2F7D6143241}">
 													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="27818.1818181818"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="79545.4583333333"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="1380.65411298315"/>
-														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
 													</PropertyList>
-													<AudioSourceRef Name="Comf_The_Game_-_ZIK_v0_0_1" ID="{87FA70EA-BF53-4B14-956A-F3A7DAC022BD}"/>
-													<PropertyCurveList>
-														<PropertyCurve PropertyName="Highpass">
-															<Curve Name="" ID="{5B399A7A-B6A6-4A85-97E6-20DA2A39F3DE}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="1"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>27.81818</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</PropertyCurve>
-														<PropertyCurve PropertyName="Lowpass">
-															<Curve Name="" ID="{B478743E-20E2-478C-AF59-98DB8465C93A}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="1"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>27.81818</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</PropertyCurve>
-														<PropertyCurve PropertyName="Volume">
-															<Curve Name="" ID="{AD69E329-6401-482E-995B-ADFE1E640E46}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>27.81818</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</PropertyCurve>
-													</PropertyCurveList>
+													<AudioSourceRef Name="02-BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001" ID="{108FC3AF-49CF-405A-87A2-D52E0BAE75D5}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="CONFORT_____-_Comf_The_Game_-_ZIK_v1" ID="{D1B5401E-C3C4-4A26-90B7-C07ED21B2A3E}" ShortID="591411307">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="VORBIS_GGJ19" ID="{83468ED2-53B9-424F-9A22-2FC1DFBF4424}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Bus_Music" ID="{0F47FC40-E6CA-4E24-8840-EBC653245852}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="08-CONFORT - PIANO-190127_1259_-_Comf_The_Game_-_ZIK_v1" ID="{DD91F97E-6B44-4BA6-AD77-1D1973301472}" ShortID="475973611">
+											<Language>SFX</Language>
+											<AudioFile>08-CONFORT - PIANO-190127_1259_-_Comf_The_Game_-_ZIK_v1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="ST_Player_Confort" ID="{85CA95DD-7656-4A84-A304-4DD73A70B7A9}"/>
+											</StateGroupInfo>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="ST_Time" ID="{EC2E261E-2C20-4725-A621-723BEB9A61CB}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
+												<State Name="" ID="{74A3CD82-3A58-4C66-99F6-214C9EE55AF7}" ShortID="456598711"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
+												<State Name="" ID="{67808754-5708-48B1-86C8-893A0953D464}" ShortID="42502312">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="45"/>
+														<Property Name="Volume" Type="Real64" Value="-9"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Yes" ID="{2663488A-2F78-4993-8225-163E7F327CD6}"/>
+												<State Name="" ID="{6E94FE97-4FD8-4E05-B6B2-D1C2A49A07C9}" ShortID="940746094"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="No" ID="{83B8AB1A-D2B3-4B63-BCEB-308C49D9287C}"/>
+												<State Name="" ID="{8A4DA6B6-3952-4395-9CAF-8602810850D3}" ShortID="759405775">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B6443476-1334-4996-B3C2-5F70014AE718}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{4F8CA0DB-7A9F-423F-8D87-36B28C6DDDD5}">
+											<ClipList>
+												<MusicClip Name="08-CONFORT - PIANO-190127_1259_-_Comf_The_Game_-_ZIK_v1" ID="{DDF1DECD-CE81-418E-96E9-05D24CD364DE}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="79545.4583333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="08-CONFORT - PIANO-190127_1259_-_Comf_The_Game_-_ZIK_v1" ID="{DD91F97E-6B44-4BA6-AD77-1D1973301472}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001" ID="{53734E0E-1146-4F26-AC99-FCFB3C1763A3}" ShortID="646449685">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="VORBIS_GGJ19" ID="{83468ED2-53B9-424F-9A22-2FC1DFBF4424}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Bus_Music" ID="{0F47FC40-E6CA-4E24-8840-EBC653245852}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="04-HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001" ID="{99A6DB7C-70ED-4C01-BD56-1F8CFB7202D8}" ShortID="585563920">
+											<Language>SFX</Language>
+											<AudioFile>04-HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="ST_Time" ID="{EC2E261E-2C20-4725-A621-723BEB9A61CB}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
+												<State Name="" ID="{4C18225B-291B-4A67-AE22-833CF6446208}" ShortID="59985332"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
+												<State Name="" ID="{E9BB00E3-9163-468B-B408-C3F5A13B846F}" ShortID="914788374">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="45"/>
+														<Property Name="Volume" Type="Real64" Value="-10.5"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A8B9671E-DFF3-4C13-A558-D41483DCD829}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{54446FB7-5C6F-49ED-97C6-8B4720BAE851}">
+											<ClipList>
+												<MusicClip Name="04-HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001" ID="{11F8BF16-C9AC-43F6-BFCD-388871627BF1}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="79545.4583333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="04-HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001" ID="{99A6DB7C-70ED-4C01-BD56-1F8CFB7202D8}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="HOME_____-_Comf_The_Game_-_ZIK_v1-001" ID="{5897EAC0-5E50-422C-B47A-92E9BEF106FB}" ShortID="578250362">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="VORBIS_GGJ19" ID="{83468ED2-53B9-424F-9A22-2FC1DFBF4424}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Bus_Music" ID="{0F47FC40-E6CA-4E24-8840-EBC653245852}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="06-HOME - MUSIC BOX-190127_1259_-_Comf_The_Game_-_ZIK_v1-001" ID="{FC03D613-C87B-4E64-BF2C-6EBAECDF7D9F}" ShortID="835582807">
+											<Language>SFX</Language>
+											<AudioFile>06-HOME - MUSIC BOX-190127_1259_-_Comf_The_Game_-_ZIK_v1-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="ST_Close_Home" ID="{20F1CD12-AD62-4F7F-B925-51642DFF4907}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Affar" ID="{5ACEB667-348B-4720-9C73-85C7AAC95781}"/>
+												<State Name="" ID="{BB664A02-96C9-4C23-AD3E-F3561DE22B87}" ShortID="494884549"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Close" ID="{B598D438-8887-4E86-A374-DEF11A16988B}"/>
+												<State Name="" ID="{8C671536-3C25-4C3D-974F-B1EB745F2224}" ShortID="441416090">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{044D943A-FDB6-42FB-8628-B8659A013F69}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{CEBB3800-5B77-426F-9B78-3DC0B34E8226}">
+											<ClipList>
+												<MusicClip Name="06-HOME - MUSIC BOX-190127_1259_-_Comf_The_Game_-_ZIK_v1-001" ID="{0DF9BD05-32B1-4B89-B439-82EC3251BBCF}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="79545.4583333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="06-HOME - MUSIC BOX-190127_1259_-_Comf_The_Game_-_ZIK_v1-001" ID="{FC03D613-C87B-4E64-BF2C-6EBAECDF7D9F}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>
@@ -132,11 +315,11 @@
 								</MusicTrack>
 							</ChildrenList>
 							<CueList>
-								<MusicCue Name="Entry Cue" ID="{F9F47A54-2D24-4D80-A9EA-DEE95ED09AA5}"/>
-								<MusicCue Name="Exit Cue" ID="{DCA6DAAE-A57C-4AAB-B2BD-643CB4C2D016}">
+								<MusicCue Name="Entry Cue" ID="{CC1B2B85-2A42-46AD-AFB6-F7B53BD2DA57}"/>
+								<MusicCue Name="Exit Cue" ID="{06B34B50-8E0C-4C76-81AB-B6D5AD03E30A}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="26181.8181818182"/>
+										<Property Name="TimeMs" Type="Real64" Value="78545.4545454545"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
@@ -157,15 +340,13 @@
 					</TransitionList>
 					<Playlist>
 						<MusicPlaylistItem Name="" ID="{4C8E0241-ACD3-4F31-85E6-DEB118A4D130}" ShortID="7794162">
-							<PropertyList>
-								<Property Name="LoopCount" Type="int16" Value="0"/>
-							</PropertyList>
 							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{200A15F4-C2C5-470E-A743-6849F62F04EB}" ShortID="119651359">
+								<MusicPlaylistItem Name="" ID="{7C121C22-2F11-421D-92CE-50AC40B0FC08}" ShortID="1060324743">
 									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
-									<SegmentRef Name="Comf_The_Game_-_ZIK_v0_0_1" ID="{C81D63B5-162C-466E-B159-B523DA86E1AF}"/>
+									<SegmentRef Name="Main_Music" ID="{4A5048A0-5D6D-44D5-9A41-2BA8E2CD9D76}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
 						</MusicPlaylistItem>

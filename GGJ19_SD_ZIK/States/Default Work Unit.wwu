@@ -39,6 +39,14 @@
 						<State Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
 						<State Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
+							<EndState Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
+							<Time>2</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="ST_Close_Home" ID="{20F1CD12-AD62-4F7F-B925-51642DFF4907}">
 					<ChildrenList>
@@ -46,6 +54,14 @@
 						<State Name="Close" ID="{B598D438-8887-4E86-A374-DEF11A16988B}"/>
 						<State Name="Affar" ID="{5ACEB667-348B-4720-9C73-85C7AAC95781}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Affar" ID="{5ACEB667-348B-4720-9C73-85C7AAC95781}"/>
+							<EndState Name="Close" ID="{B598D438-8887-4E86-A374-DEF11A16988B}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>

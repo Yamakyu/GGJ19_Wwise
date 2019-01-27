@@ -18,10 +18,17 @@ State	ID	Name	State Group			Notes
 	979470758	Yes	ST_Player_Confort			
 	1668749452	No	ST_Player_Confort			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1332681250	RTPC_D_Closest_Zone			\Default Work Unit\RTPC_D_Closest_Zone	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1162281553	Bus_Music			\Default Work Unit\Master Audio Bus\Bus_Music	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3895923845	Bus_SFX			\Default Work Unit\Master Audio Bus\Bus_SFX	
+
+Effect plug-ins	ID	Name	Type				Notes
+	397492590	Wwise Tremolo (Custom)	Wwise Tremolo			
+	656224596	Wwise Compressor (Custom)	Wwise Compressor			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

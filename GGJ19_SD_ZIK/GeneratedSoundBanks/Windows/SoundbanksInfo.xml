@@ -31,16 +31,12 @@
 				<Event Id="1842260389" Name="P_Comfort_Create" ObjectPath="\Events\Default Work Unit\Player\P_Comfort_Create"/>
 				<Event Id="2748895709" Name="P_Comfort_Extend" ObjectPath="\Events\Default Work Unit\Player\P_Comfort_Extend" MaxAttenuation="0.000000"/>
 				<Event Id="844915450" Name="P_GameOver" ObjectPath="\Events\Default Work Unit\Player\P_GameOver"/>
-				<Event Id="3061350027" Name="P_Success" ObjectPath="\Events\Default Work Unit\Player\P_Success" MaxAttenuation="0.000000"/>
+				<Event Id="3061350027" Name="P_Success" ObjectPath="\Events\Default Work Unit\Player\P_Success"/>
 				<Event Id="3240909698" Name="P_Success_Final" ObjectPath="\Events\Default Work Unit\Player\P_Success_Final" MaxAttenuation="0.000000"/>
 				<Event Id="1065524949" Name="P_Walk" ObjectPath="\Events\Default Work Unit\Player\P_Walk"/>
 				<Event Id="4256079544" Name="P_Walk_Stop" ObjectPath="\Events\Default Work Unit\Player\P_Walk_Stop" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="200895156" Language="SFX">
-					<ShortName>Comf_The_Game_-_ZIK_v0.0.1.wav</ShortName>
-					<Path>SFX\Comf_The_Game_-_ZIK_v0.0.1_0CBEF50C.wem</Path>
-				</File>
 				<File Id="210929948" Language="SFX">
 					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001.wav</ShortName>
 					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001_56D34C19.wem</Path>
@@ -53,6 +49,14 @@
 					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003.wav</ShortName>
 					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003_56D34C19.wem</Path>
 				</File>
+				<File Id="475973611" Language="SFX">
+					<ShortName>08-CONFORT - PIANO-190127_1259_-_Comf_The_Game_-_ZIK_v1.wav</ShortName>
+					<Path>SFX\08-CONFORT - PIANO-190127_1259_-_Comf_The_Game_-_ZIK_v1_0CBEF50C.wem</Path>
+				</File>
+				<File Id="585563920" Language="SFX">
+					<ShortName>04-HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001.wav</ShortName>
+					<Path>SFX\04-HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001_0CBEF50C.wem</Path>
+				</File>
 				<File Id="613715007" Language="SFX">
 					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-006.wav</ShortName>
 					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-006_56D34C19.wem</Path>
@@ -60,6 +64,14 @@
 				<File Id="766159121" Language="SFX">
 					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-004.wav</ShortName>
 					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-004_56D34C19.wem</Path>
+				</File>
+				<File Id="835582807" Language="SFX">
+					<ShortName>06-HOME - MUSIC BOX-190127_1259_-_Comf_The_Game_-_ZIK_v1-001.wav</ShortName>
+					<Path>SFX\06-HOME - MUSIC BOX-190127_1259_-_Comf_The_Game_-_ZIK_v1-001_0CBEF50C.wem</Path>
+				</File>
+				<File Id="851105092" Language="SFX">
+					<ShortName>02-BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001.wav</ShortName>
+					<Path>SFX\02-BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001_0CBEF50C.wem</Path>
 				</File>
 				<File Id="867255748" Language="SFX">
 					<ShortName>SFX_Player_Comfort_Create_-_190126_21h17.wav</ShortName>

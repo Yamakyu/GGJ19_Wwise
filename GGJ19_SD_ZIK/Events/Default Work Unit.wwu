@@ -105,7 +105,20 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="P_Comfort_Extend" ID="{C86D8A28-B82C-48B1-B44D-F9985AC4AA81}"/>
-						<Event Name="P_Success" ID="{8D371FCA-1D30-4A49-A626-DCF93EAAE609}"/>
+						<Event Name="P_Success" ID="{8D371FCA-1D30-4A49-A626-DCF93EAAE609}">
+							<ChildrenList>
+								<Action Name="" ID="{27F4D888-FE9B-465D-AC03-B05A7A179C72}" ShortID="639618951">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Comfort_Create_-_190126_21h17" ID="{F48B6682-204C-4F85-BEA1-31311F09F5BA}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="P_GameOver" ID="{17B969FB-9965-47F7-A7B7-AA90DA1CB7F9}">
 							<ChildrenList>
 								<Action Name="" ID="{B2289A64-D5C6-4319-AD09-3698A147FDFF}" ShortID="809479202">
@@ -199,6 +212,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}" WorkUnitID="{1AAB9C92-22C5-42DC-A59F-24EB22723733}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2E6EE581-CCE1-4E84-B2C6-848CF799A89A}" ShortID="156918410">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Affar" ID="{5ACEB667-348B-4720-9C73-85C7AAC95781}" WorkUnitID="{1AAB9C92-22C5-42DC-A59F-24EB22723733}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
