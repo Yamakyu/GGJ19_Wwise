@@ -37,6 +37,10 @@
 				<Event Id="4256079544" Name="P_Walk_Stop" ObjectPath="\Events\Default Work Unit\Player\P_Walk_Stop" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="200895156" Language="SFX">
+					<ShortName>Comf_The_Game_-_ZIK_v0.0.1.wav</ShortName>
+					<Path>SFX\Comf_The_Game_-_ZIK_v0.0.1_0CBEF50C.wem</Path>
+				</File>
 				<File Id="210929948" Language="SFX">
 					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001.wav</ShortName>
 					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001_56D34C19.wem</Path>

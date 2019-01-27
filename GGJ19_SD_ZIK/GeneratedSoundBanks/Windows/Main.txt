@@ -15,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4256079544	P_Walk_Stop			\Default Work Unit\Player\P_Walk_Stop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	200895156	Comf_The_Game_-_ZIK_v0_0_1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Comf_The_Game_-_ZIK_v0.0.1_0CBEF50C.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\Comf_The_Game_-_ZIK_v0_0_1\Comf_The_Game_-_ZIK_v0_0_1		909640
 	210929948	SFX_Player_Footsteps_-_v2_190126_2144-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001		110156
 	396802700	SFX_Greetings_Nice-190126_2310	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Greetings_Nice-190126_2310_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\SFX_Greetings_Nice-190126_2310		225856
 	459188833	SFX_Player_Footsteps_-_v2_190126_2144-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003		116020
