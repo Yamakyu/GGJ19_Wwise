@@ -1,13 +1,13 @@
 State Group	ID	Name			Wwise Object Path	Notes
-	49801481	ST_Close_Home			\Default Work Unit\ST_Close_Home	
-	2591331092	ST_Time			\Default Work Unit\ST_Time	
-	3101108469	ST_Game_Running			\Default Work Unit\ST_Game_Running	
-	3384181978	ST_Player_Confort			\Default Work Unit\ST_Player_Confort	
+	49801481	ST_Close_Home			\Default Work Unit\ST_Close_Home	Controle le MUSIC BOX (reversed, close = affar, vice versa)
+	2591331092	ST_Time			\Default Work Unit\ST_Time	Etouffement de la zik
+	3101108469	ST_Game_Running			\Default Work Unit\ST_Game_Running	Not used
+	3384181978	ST_Player_Confort			\Default Work Unit\ST_Player_Confort	Contrôle le PIANO 
 
 State	ID	Name	State Group			Notes
 	0	None	ST_Close_Home			
-	1451272583	Close	ST_Close_Home			
-	3347064807	Affar	ST_Close_Home			
+	1451272583	Close	ST_Close_Home			Reverse C'est actually *affar* dans le code
+	3347064807	Affar	ST_Close_Home			Reverse C'est actually *close* dans le code
 	0	None	ST_Time			
 	311764537	Day	ST_Time			
 	1011622525	Night	ST_Time			

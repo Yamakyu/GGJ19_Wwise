@@ -69,7 +69,7 @@
 												<StateRef Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
 												<State Name="" ID="{A31C4AAB-C353-407F-AAF9-D3CDB8F644A3}" ShortID="141941914">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="9"/>
+														<Property Name="Volume" Type="Real64" Value="3"/>
 													</PropertyList>
 												</State>
 											</CustomState>

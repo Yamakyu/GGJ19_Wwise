@@ -6,7 +6,10 @@
 				<GameParameter Name="RTPC_D_Closest_Zone" ID="{EE72FDFA-1938-41DF-B8F3-5BB3585E6C66}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="10"/>
+						<Property Name="Max" Type="Real64" Value="150"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="80"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="30"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="RTPC_Health" ID="{49C28716-A5C6-4964-B8B9-5131ADBC86D7}"/>

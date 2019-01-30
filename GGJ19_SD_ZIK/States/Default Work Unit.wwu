@@ -4,6 +4,8 @@
 		<WorkUnit Name="Default Work Unit" ID="{1AAB9C92-22C5-42DC-A59F-24EB22723733}" PersistMode="Standalone">
 			<ChildrenList>
 				<StateGroup Name="ST_Player_Confort" ID="{85CA95DD-7656-4A84-A304-4DD73A70B7A9}">
+					<Comment>Contrôle le PIANO
+</Comment>
 					<ChildrenList>
 						<State Name="None" ID="{B9282EE5-A193-4A81-A3F6-31C761EAD07F}"/>
 						<State Name="Yes" ID="{2663488A-2F78-4993-8225-163E7F327CD6}"/>
@@ -13,12 +15,13 @@
 						<Transition>
 							<StartState Name="Yes" ID="{2663488A-2F78-4993-8225-163E7F327CD6}"/>
 							<EndState Name="No" ID="{83B8AB1A-D2B3-4B63-BCEB-308C49D9287C}"/>
-							<Time>1</Time>
+							<Time>2</Time>
 							<IsShared>true</IsShared>
 						</Transition>
 					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="ST_Game_Running" ID="{61D67EA4-E4BB-460A-B2D2-466070D786E9}">
+					<Comment>Not used</Comment>
 					<ChildrenList>
 						<State Name="None" ID="{61747452-9091-454C-AFA4-489AADD38C1D}"/>
 						<State Name="Paused" ID="{98B25D85-0183-4CA2-9361-807BB4859AD7}"/>
@@ -34,6 +37,7 @@
 					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="ST_Time" ID="{EC2E261E-2C20-4725-A621-723BEB9A61CB}">
+					<Comment>Etouffement de la zik</Comment>
 					<ChildrenList>
 						<State Name="None" ID="{C41378F9-E5C1-487A-A156-C84EAA67B991}"/>
 						<State Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
@@ -43,16 +47,24 @@
 						<Transition>
 							<StartState Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
 							<EndState Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
-							<Time>2</Time>
+							<Time>3</Time>
 							<IsShared>true</IsShared>
 						</Transition>
 					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="ST_Close_Home" ID="{20F1CD12-AD62-4F7F-B925-51642DFF4907}">
+					<Comment>Controle le MUSIC BOX
+(reversed, close = affar, vice versa)</Comment>
 					<ChildrenList>
 						<State Name="None" ID="{4AAFDFB3-3E9E-4B9E-B68C-0EB2E032EBF1}"/>
-						<State Name="Close" ID="{B598D438-8887-4E86-A374-DEF11A16988B}"/>
-						<State Name="Affar" ID="{5ACEB667-348B-4720-9C73-85C7AAC95781}"/>
+						<State Name="Close" ID="{B598D438-8887-4E86-A374-DEF11A16988B}">
+							<Comment>Reverse
+C'est actually *affar* dans le code</Comment>
+						</State>
+						<State Name="Affar" ID="{5ACEB667-348B-4720-9C73-85C7AAC95781}">
+							<Comment>Reverse
+C'est actually *close* dans le code</Comment>
+						</State>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
