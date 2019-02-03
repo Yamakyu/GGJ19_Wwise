@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Amb_Night" ID="{4DB4C825-A2C0-41B2-9A2C-7B824BE5A342}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Amb_Cafe" ID="{A277B63D-CF75-4278-AB7D-6AFD2D9A1E9E}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="P_Sleep" ID="{6B633F6C-857A-42ED-8CA4-1A41F62E3F02}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Amb_Creep" ID="{57BE963C-1014-432E-9627-9A6B86BE8579}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Amb_Street" ID="{762D231F-E452-434A-94DE-9BDFF21EE810}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P_Walk_Stop" ID="{16567D2E-FFC0-435C-A959-93AF1B9021BC}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>

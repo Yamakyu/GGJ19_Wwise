@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1842260389	P_Comfort_Create			\Default Work Unit\Player\P_Comfort_Create	
 	1954323868	Env_Greet_Nice			\Default Work Unit\Environnement\Env_Greet_Nice	
 	2125145056	Amb_Night			\Default Work Unit\Ambiance\Amb_Night	
+	2319977171	P_Sleep			\Default Work Unit\Player\P_Sleep	
 	2748895709	P_Comfort_Extend			\Default Work Unit\Player\P_Comfort_Extend	
 	3061350027	P_Success			\Default Work Unit\Player\P_Success	
 	3240909698	P_Success_Final			\Default Work Unit\Player\P_Success_Final	
@@ -37,7 +38,11 @@ Custom State	ID	Name	State Group	Owner		Notes
 	759405775	No	ST_Player_Confort	\Interactive Music Hierarchy\Default Work Unit\Game_Music\Main_Music\CONFORT_____-_Comf_The_Game_-_ZIK_v1		
 	914788374	Night	ST_Time	\Interactive Music Hierarchy\Default Work Unit\Game_Music\Main_Music\HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001		
 
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	967065294	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Sleep\silence\Wwise Silence	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	149809010	Sleep_-_190203_1904_-_Comf_The_Game	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Sleep_-_190203_1904_-_Comf_The_Game_51B9030E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Sleep\Sleep_-_190203_1904_-_Comf_The_Game		237068
 	210929948	SFX_Player_Footsteps_-_v2_190126_2144-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001		110156
 	396802700	SFX_Greetings_Nice-190126_2310	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Greetings_Nice-190126_2310_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\SFX_Greetings_Nice-190126_2310		225856
 	459188833	SFX_Player_Footsteps_-_v2_190126_2144-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003		116020

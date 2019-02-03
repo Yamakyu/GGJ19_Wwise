@@ -15,7 +15,7 @@
 						<Transition>
 							<StartState Name="Yes" ID="{2663488A-2F78-4993-8225-163E7F327CD6}"/>
 							<EndState Name="No" ID="{83B8AB1A-D2B3-4B63-BCEB-308C49D9287C}"/>
-							<Time>2</Time>
+							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>
 					</TransitionList>
@@ -47,7 +47,7 @@
 						<Transition>
 							<StartState Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
 							<EndState Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
-							<Time>3</Time>
+							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>
 					</TransitionList>

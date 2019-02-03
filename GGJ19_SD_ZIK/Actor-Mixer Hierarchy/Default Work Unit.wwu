@@ -386,6 +386,73 @@
 										<ActiveSource Name="SFX_Player_Comfort_Create_-_190126_21h17" ID="{CB56B0FB-E29C-4ADF-95C2-8E3B3E5E2F76}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Sleep" ID="{40A1C434-CBBB-4206-BB10-FB7A3EE94686}" ShortID="43080878">
+									<PropertyList>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Sleep_-_190203_1904_-_Comf_The_Game" ID="{52D1E7C1-A717-45C2-AEBF-67967406EDEA}" ShortID="477103347">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="sleep" ID="{D64CDE6C-22EB-4691-ADCB-408DDE305D5C}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sleep_-_190203_1904_-_Comf_The_Game" ID="{FED50261-DC51-4681-9710-002AAC799507}" ShortID="149809010">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.325553023663453"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.23438854805726"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Sleep_-_190203_1904_-_Comf_The_Game.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sleep_-_190203_1904_-_Comf_The_Game" ID="{FED50261-DC51-4681-9710-002AAC799507}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="silence" ID="{770BA71C-62E9-4323-82C5-26F0C4EAC962}" ShortID="773738543">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{C9A624F1-0664-4C96-8FBB-40794E202712}" ShortID="967065294" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.5"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{C9A624F1-0664-4C96-8FBB-40794E202712}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="silence" ID="{770BA71C-62E9-4323-82C5-26F0C4EAC962}"/>
+										<ItemRef Name="Sleep_-_190203_1904_-_Comf_The_Game" ID="{52D1E7C1-A717-45C2-AEBF-67967406EDEA}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Environment" ID="{3B798693-07CA-4184-BE06-4F18A8F25DA2}" ShortID="12399996">

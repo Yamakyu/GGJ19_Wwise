@@ -44,32 +44,32 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>45</XPos>
+																		<XPos>30</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>52.63425</XPos>
+																		<XPos>35.0895</XPos>
 																		<YPos>6.45526</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>62.7219</XPos>
+																		<XPos>41.8146</XPos>
 																		<YPos>12.54855</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>68.4852</XPos>
+																		<XPos>45.6568</XPos>
 																		<YPos>16.13848</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>93.0474</XPos>
+																		<XPos>62.0316</XPos>
 																		<YPos>22.67424</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>150</XPos>
+																		<XPos>100</XPos>
 																		<YPos>25</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -97,17 +97,17 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>44.82255</XPos>
+																		<XPos>29.8817</XPos>
 																		<YPos>1</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>60.1779</XPos>
+																		<XPos>40.1186</XPos>
 																		<YPos>1.62068</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>150</XPos>
+																		<XPos>100</XPos>
 																		<YPos>11.87931</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -145,17 +145,17 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>45</XPos>
+																		<XPos>30</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>63.01755</XPos>
+																		<XPos>42.0117</XPos>
 																		<YPos>75.1421</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>150</XPos>
+																		<XPos>100</XPos>
 																		<YPos>100</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -183,17 +183,17 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>45.26625</XPos>
+																		<XPos>30.1775</XPos>
 																		<YPos>1.06935</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>45.7101</XPos>
+																		<XPos>30.4734</XPos>
 																		<YPos>250</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>150</XPos>
+																		<XPos>100</XPos>
 																		<YPos>250</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -221,17 +221,17 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>45.5621301775148</XPos>
+																		<XPos>30.3747534516765</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>60</XPos>
+																		<XPos>40</XPos>
 																		<YPos>0.98837</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>150</XPos>
+																		<XPos>100</XPos>
 																		<YPos>3</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -245,6 +245,19 @@
 									</Custom>
 								</Reference>
 							</ReferenceList>
+						</Bus>
+						<Bus Name="sleep" ID="{D64CDE6C-22EB-4691-ADCB-408DDE305D5C}">
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Bus_Music" ID="{0F47FC40-E6CA-4E24-8840-EBC653245852}"/>
+									<DuckingParam>
+										<Volume>-9</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
 						</Bus>
 					</ChildrenList>
 				</Bus>

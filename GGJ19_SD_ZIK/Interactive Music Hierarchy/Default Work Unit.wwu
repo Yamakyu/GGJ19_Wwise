@@ -56,7 +56,7 @@
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
-											<StateGroupInfo MusicSyncType="2">
+											<StateGroupInfo MusicSyncType="3">
 												<StateGroupRef Name="ST_Time" ID="{EC2E261E-2C20-4725-A621-723BEB9A61CB}"/>
 											</StateGroupInfo>
 										</StateGroupList>
@@ -122,10 +122,10 @@
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
-											<StateGroupInfo MusicSyncType="2">
+											<StateGroupInfo MusicSyncType="3">
 												<StateGroupRef Name="ST_Player_Confort" ID="{85CA95DD-7656-4A84-A304-4DD73A70B7A9}"/>
 											</StateGroupInfo>
-											<StateGroupInfo MusicSyncType="2">
+											<StateGroupInfo MusicSyncType="3">
 												<StateGroupRef Name="ST_Time" ID="{EC2E261E-2C20-4725-A621-723BEB9A61CB}"/>
 											</StateGroupInfo>
 										</StateGroupList>
@@ -204,7 +204,7 @@
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
-											<StateGroupInfo MusicSyncType="2">
+											<StateGroupInfo MusicSyncType="3">
 												<StateGroupRef Name="ST_Time" ID="{EC2E261E-2C20-4725-A621-723BEB9A61CB}"/>
 											</StateGroupInfo>
 										</StateGroupList>
