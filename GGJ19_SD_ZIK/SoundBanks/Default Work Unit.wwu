@@ -11,11 +11,13 @@
 						<ObjectRef Name="Amb_Creep" ID="{57BE963C-1014-432E-9627-9A6B86BE8579}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Amb_Street" ID="{762D231F-E452-434A-94DE-9BDFF21EE810}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P_Walk_Stop" ID="{16567D2E-FFC0-435C-A959-93AF1B9021BC}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Env_Room_Enter" ID="{4BABC485-C3C4-44E4-A720-C72152251769}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Game_Start" ID="{A41DD98D-7ACA-45B6-8D1E-B30CCF132E26}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Env_Greet_Mean" ID="{C95FEC2A-3245-4670-BBE3-38DC710A145C}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P_Success_Final" ID="{1170453B-03F8-4692-A49A-5B36FAE06CBB}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P_GameOver" ID="{17B969FB-9965-47F7-A7B7-AA90DA1CB7F9}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P_Comfort_Extend" ID="{C86D8A28-B82C-48B1-B44D-F9985AC4AA81}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Env_Room_Leave" ID="{6C6B070A-14E0-4A27-BD79-450BA8A7885C}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P_Success" ID="{8D371FCA-1D30-4A49-A626-DCF93EAAE609}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P_Comfort_Create" ID="{4F615B21-9EF8-4C53-BD80-312D793E5673}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P_Walk" ID="{7AF8896A-01DA-4D1B-9D19-978039F91224}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>

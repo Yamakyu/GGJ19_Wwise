@@ -453,6 +453,59 @@
 										<ItemRef Name="Sleep_-_190203_1904_-_Comf_The_Game" ID="{52D1E7C1-A717-45C2-AEBF-67967406EDEA}"/>
 									</Playlist>
 								</RandomSequenceContainer>
+								<Sound Name="Door_Close_-_190206_2312-01" ID="{5C769B93-2721-4583-8690-2733A683D242}" ShortID="1051467990">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Door_Close_-_190206_2312-01" ID="{CC1E7EFE-AE41-4384-8684-EAE07B6AAE60}" ShortID="238797332">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.292067586017755"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.76902724864413"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Door_Close_-_190206_2312-01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Door_Close_-_190206_2312-01" ID="{CC1E7EFE-AE41-4384-8684-EAE07B6AAE60}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Door_Open_-_190206_2312" ID="{142F335C-EC2C-4808-93DD-BA0F0117F8AA}" ShortID="732065937">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Door_Open_-_190206_2312" ID="{A188693F-10B7-456F-A4F7-DF6F918CB7D2}" ShortID="296990318">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.05473034554166"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.01576027314227"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_Door_Open_-_190206_2312.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Door_Open_-_190206_2312" ID="{A188693F-10B7-456F-A4F7-DF6F918CB7D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Environment" ID="{3B798693-07CA-4184-BE06-4F18A8F25DA2}" ShortID="12399996">
@@ -480,48 +533,350 @@
 										<ActiveSource Name="SFX_Greetings_Mean-190127_0008" ID="{BFB9A011-FF6F-459C-ACD5-1C50AC4DB7ED}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Greetings_Nice-190126_2310" ID="{BEAEA983-A88F-4E07-901C-75C4565D9A47}" ShortID="550610671">
-									<PropertyList>
-										<Property Name="Highpass" Type="int16">
-											<ValueList>
-												<Value>40</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>200</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{3250F33D-6185-42E3-A2E0-2A121110CE1E}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="100"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
-										</Reference>
-									</ReferenceList>
+								<Folder Name="Greetings_Nice" ID="{484FFE2A-F9B7-48FF-A0C4-8DDC1F649E39}" ShortID="385348951">
 									<ChildrenList>
-										<AudioFileSource Name="SFX_Greetings_Nice-190126_2310" ID="{D0623E8C-7F7D-4036-8BD1-6FE54960396A}" ShortID="396802700">
-											<Language>SFX</Language>
-											<AudioFile>SFX_Greetings_Nice-190126_2310.wav</AudioFile>
-										</AudioFileSource>
+										<Sound Name="SFX_Greetings_Nice-190126_2310" ID="{BEAEA983-A88F-4E07-901C-75C4565D9A47}" ShortID="550610671">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>200</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3250F33D-6185-42E3-A2E0-2A121110CE1E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Bus_SFX" ID="{927138BA-A980-4934-B3A9-8985E0E1CD77}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Greetings_Nice-190126_2310" ID="{D0623E8C-7F7D-4036-8BD1-6FE54960396A}" ShortID="396802700">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Greetings_Nice-190126_2310.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Greetings_Nice-190126_2310" ID="{D0623E8C-7F7D-4036-8BD1-6FE54960396A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Greet_Nice_P1" ID="{87CD32B4-4FDF-46A1-8E2E-9EBDA1FCFD54}" ShortID="321148849">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{58E8E18F-C991-479D-ACC7-422E52E56EC7}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="300"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Greet_Nice_P1_-190206_2257" ID="{5939F2E1-2992-4BC6-8576-62715209020F}" ShortID="527044728">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_20-SFX_Greet_Nice_P1_-190206_2257" ID="{FD6119EA-A6DA-4356-8D04-23A857ECD917}" ShortID="597055112">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="3.71603856266433E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="5.53900087642419E-02"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_20-SFX_Greet_Nice_P1_-190206_2257.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_20-SFX_Greet_Nice_P1_-190206_2257" ID="{FD6119EA-A6DA-4356-8D04-23A857ECD917}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Greet_Nice_P1_-190206_2257-01" ID="{3C137A47-4C6A-4FC2-8424-1E85DF88EBA7}" ShortID="414575350">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_20-SFX_Greet_Nice_P1_-190206_2257-01" ID="{ADBD19B3-6813-4E3E-B2B7-ADFF03F7CF67}" ShortID="147031736">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="4.22929323642983E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="7.64526085046932E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.057746119189715"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.579901168764321"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_20-SFX_Greet_Nice_P1_-190206_2257-01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_20-SFX_Greet_Nice_P1_-190206_2257-01" ID="{ADBD19B3-6813-4E3E-B2B7-ADFF03F7CF67}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Greet_Nice_P1_-190206_2257-03" ID="{9D981E83-1709-45F2-9E40-1302237BBC8A}" ShortID="568026103">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_20-SFX_Greet_Nice_P1_-190206_2257-03" ID="{0E5D6EC4-C72A-411F-8E67-DECC9582DB46}" ShortID="811073043">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.111985190219821"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.099542391306508"/>
+																<Property Name="TrimBegin" Type="Real64" Value="8.93619194683424E-02"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.759010733712123"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_20-SFX_Greet_Nice_P1_-190206_2257-03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_20-SFX_Greet_Nice_P1_-190206_2257-03" ID="{0E5D6EC4-C72A-411F-8E67-DECC9582DB46}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Greet_Nice_P1_-190206_2257-04" ID="{C1C17565-BB28-4B58-AFAF-1934CD3C466D}" ShortID="475908284">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>200</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1.5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_20-SFX_Greet_Nice_P1_-190206_2257-04" ID="{7EAE8413-73F5-4C9D-80F0-91F37E3828E5}" ShortID="363381608">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="7.06748466257669E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="7.32924335378322E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="4.97341513292433E-02"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.920081799591002"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_20-SFX_Greet_Nice_P1_-190206_2257-04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_20-SFX_Greet_Nice_P1_-190206_2257-04" ID="{7EAE8413-73F5-4C9D-80F0-91F37E3828E5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Greet_Nice_P2" ID="{A14620D3-D6F0-4E76-98A9-18377FA796C1}" ShortID="321390628">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{45C0F69E-8CDB-4A97-A7EA-D6C1F5980A06}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Greet_Nice_P2_-190206_2257" ID="{DB95454C-D8BA-445A-98C1-7FD79DFC3D71}" ShortID="603739002">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_22-SFX_Greet_Nice_P2_-190206_2257" ID="{019A2E00-3ED1-46B9-A4C0-640C49B550F4}" ShortID="1047265520">
+															<PropertyList>
+																<Property Name="TrimBegin" Type="Real64" Value="6.02979842243646E-02"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.735495179666959"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_22-SFX_Greet_Nice_P2_-190206_2257.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_22-SFX_Greet_Nice_P2_-190206_2257" ID="{019A2E00-3ED1-46B9-A4C0-640C49B550F4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Greet_Nice_P2_-190206_2257-01" ID="{E431B3D4-56DE-40C2-94C3-EC6153DF9E83}" ShortID="1043441321">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_22-SFX_Greet_Nice_P2_-190206_2257-01" ID="{DF29ACE0-2AF7-4D94-B437-465D96468EC0}" ShortID="967445526">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="4.79862117210308E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="5.44928167001536E-02"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_22-SFX_Greet_Nice_P2_-190206_2257-01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_22-SFX_Greet_Nice_P2_-190206_2257-01" ID="{DF29ACE0-2AF7-4D94-B437-465D96468EC0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Greet_Nice_P2_-190206_2257-03" ID="{B0DB3670-CBD1-4FB0-B856-0CDD4784EE6A}" ShortID="584713865">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>29</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1.5</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>20</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_22-SFX_Greet_Nice_P2_-190206_2257-03" ID="{E363AA6D-17F0-4D47-AF4D-967FA6248B2C}" ShortID="360405660">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="8.25749382428987E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.111985190219821"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.118772171445265"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.876651741619815"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_22-SFX_Greet_Nice_P2_-190206_2257-03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_22-SFX_Greet_Nice_P2_-190206_2257-03" ID="{E363AA6D-17F0-4D47-AF4D-967FA6248B2C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Greet_Nice_P2_-190206_2257-04" ID="{5BF5FE64-779A-4A56-9938-548CCE5EDD86}" ShortID="847348317">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>100</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_22-SFX_Greet_Nice_P2_-190206_2257-04" ID="{D0D23A91-D01E-4691-A611-18D276F67327}" ShortID="980607574">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="7.06748466257669E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="9.29243353783231E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6.93660531697342E-02"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.905685071574642"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_22-SFX_Greet_Nice_P2_-190206_2257-04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_22-SFX_Greet_Nice_P2_-190206_2257-04" ID="{D0D23A91-D01E-4691-A611-18D276F67327}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Greetings_Nice-190126_2310" ID="{D0623E8C-7F7D-4036-8BD1-6FE54960396A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

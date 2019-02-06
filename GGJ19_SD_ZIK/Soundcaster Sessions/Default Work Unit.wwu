@@ -10,12 +10,24 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Env_Room_Leave" ID="{6C6B070A-14E0-4A27-BD79-450BA8A7885C}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Footsteps v2" ID="{3E7F97F2-AE42-40A1-A48F-D8CDDBEE08FB}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Sleep_-_190203_1904_-_Comf_The_Game" ID="{52D1E7C1-A717-45C2-AEBF-67967406EDEA}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
+							<ObjectRef Name="Env_Room_Enter" ID="{4BABC485-C3C4-44E4-A720-C72152251769}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="P_Sleep" ID="{6B633F6C-857A-42ED-8CA4-1A41F62E3F02}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Env_Greet_Nice" ID="{552B5C25-08FE-4EAA-8910-6472CD586465}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -32,7 +44,7 @@
 						<CurrentStateRef Name="Running" ID="{616F3CA1-B418-412D-BF96-AB904D1BAE29}"/>
 						<CurrentStateRef Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
 						<CurrentStateRef Name="Yes" ID="{2663488A-2F78-4993-8225-163E7F327CD6}"/>
-						<CurrentStateRef Name="Close" ID="{B598D438-8887-4E86-A374-DEF11A16988B}"/>
+						<CurrentStateRef Name="Affar" ID="{5ACEB667-348B-4720-9C73-85C7AAC95781}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Game" ID="{67957CED-E95C-4AAB-9A38-C40F7C557A43}"/>

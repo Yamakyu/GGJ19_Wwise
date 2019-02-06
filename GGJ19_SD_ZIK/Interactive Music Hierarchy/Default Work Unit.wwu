@@ -278,15 +278,15 @@
 										<CustomStateList>
 											<CustomState>
 												<StateRef Name="Affar" ID="{5ACEB667-348B-4720-9C73-85C7AAC95781}"/>
-												<State Name="" ID="{BB664A02-96C9-4C23-AD3E-F3561DE22B87}" ShortID="494884549"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Close" ID="{B598D438-8887-4E86-A374-DEF11A16988B}"/>
-												<State Name="" ID="{8C671536-3C25-4C3D-974F-B1EB745F2224}" ShortID="441416090">
+												<State Name="" ID="{BB664A02-96C9-4C23-AD3E-F3561DE22B87}" ShortID="494884549">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64" Value="-108"/>
 													</PropertyList>
 												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Close" ID="{B598D438-8887-4E86-A374-DEF11A16988B}"/>
+												<State Name="" ID="{8C671536-3C25-4C3D-974F-B1EB745F2224}" ShortID="441416090"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -314,12 +314,77 @@
 									</SequenceList>
 								</MusicTrack>
 							</ChildrenList>
+							<StingerList>
+								<MusicStinger Name="" ID="{CDAFE318-EC52-4B0E-9AC9-F2927469AB9C}">
+									<PropertyList>
+										<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+									</PropertyList>
+									<TriggerRef Name="Sleep" ID="{178A58F8-7A81-4569-830C-735851847868}" WorkUnitID="{E512E098-643E-4A43-8A65-E48A390FFBAE}"/>
+									<SegmentRef Name="STNGR_Sleep" ID="{642AC249-E4B4-4362-8C12-CB11B972F625}" WorkUnitID="{3523F2AC-2831-455D-8670-D442E34C23EB}"/>
+								</MusicStinger>
+							</StingerList>
 							<CueList>
 								<MusicCue Name="Entry Cue" ID="{CC1B2B85-2A42-46AD-AFB6-F7B53BD2DA57}"/>
 								<MusicCue Name="Exit Cue" ID="{06B34B50-8E0C-4C76-81AB-B6D5AD03E30A}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
 										<Property Name="TimeMs" Type="Real64" Value="78545.4545454545"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="STNGR_Sleep" ID="{642AC249-E4B4-4362-8C12-CB11B972F625}" ShortID="134607939">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Sleep_-_190203_1904_-_Comf_The_Game" ID="{183AC6A2-CA80-4832-AB6A-BAEEDAC2BFAA}" ShortID="832937807">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sleep_-_190203_1904_-_Comf_The_Game" ID="{0F6362BE-E75F-4593-BD67-AF5F8F163A76}" ShortID="917465485">
+											<Language>SFX</Language>
+											<AudioFile>Sleep_-_190203_1904_-_Comf_The_Game.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C7AB6121-0EA7-4302-8E46-392BB6FAA391}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{CF117AF7-3A38-49F4-A035-0A3D22AA8C7E}">
+											<ClipList>
+												<MusicClip Name="Sleep_-_190203_1904_-_Comf_The_Game" ID="{073729C9-6240-4DCF-9375-B32B46196B60}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="3869.33333333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Sleep_-_190203_1904_-_Comf_The_Game" ID="{0F6362BE-E75F-4593-BD67-AF5F8F163A76}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{BE7F56B0-74CE-48C6-9480-35F633E7CB9E}"/>
+								<MusicCue Name="Exit Cue" ID="{8EC5BE37-D9A3-44C6-A848-5B43CCAD5C52}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>

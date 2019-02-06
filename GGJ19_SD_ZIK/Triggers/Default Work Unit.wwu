@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E512E098-643E-4A43-8A65-E48A390FFBAE}" SchemaVersion="89">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{E512E098-643E-4A43-8A65-E48A390FFBAE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E512E098-643E-4A43-8A65-E48A390FFBAE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Sleep" ID="{178A58F8-7A81-4569-830C-735851847868}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Triggers>
 </WwiseDocument>

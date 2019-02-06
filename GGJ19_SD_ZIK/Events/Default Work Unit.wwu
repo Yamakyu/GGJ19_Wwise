@@ -23,13 +23,23 @@
 					<ChildrenList>
 						<Event Name="Env_Greet_Nice" ID="{552B5C25-08FE-4EAA-8910-6472CD586465}">
 							<ChildrenList>
-								<Action Name="" ID="{0368F459-6869-4699-8129-6DD37F733E69}" ShortID="1067757115">
+								<Action Name="" ID="{31747A78-8ABA-4EF5-9114-EEE4B00C010B}" ShortID="829833418">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_Greetings_Nice-190126_2310" ID="{BEAEA983-A88F-4E07-901C-75C4565D9A47}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
+											<ObjectRef Name="Greet_Nice_P1" ID="{87CD32B4-4FDF-46A1-8E2E-9EBDA1FCFD54}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A7696874-C456-480C-A643-7830EA4CDCC9}" ShortID="419938095">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Greet_Nice_P2" ID="{A14620D3-D6F0-4E76-98A9-18377FA796C1}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -44,6 +54,34 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_Greetings_Mean-190127_0008" ID="{BFBFD158-042B-4A19-BA1A-493BBDA4E974}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Env_Room_Enter" ID="{4BABC485-C3C4-44E4-A720-C72152251769}">
+							<ChildrenList>
+								<Action Name="" ID="{949B9F63-E7AC-416F-B30B-F5E094CC165B}" ShortID="941541761">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_Open_-_190206_2312" ID="{142F335C-EC2C-4808-93DD-BA0F0117F8AA}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Env_Room_Leave" ID="{6C6B070A-14E0-4A27-BD79-450BA8A7885C}">
+							<ChildrenList>
+								<Action Name="" ID="{560DCE4B-FA6E-4C6A-9EC0-19F38810FC00}" ShortID="829059204">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_Close_-_190206_2312-01" ID="{5C769B93-2721-4583-8690-2733A683D242}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -158,13 +196,14 @@
 						</Event>
 						<Event Name="P_Sleep" ID="{6B633F6C-857A-42ED-8CA4-1A41F62E3F02}">
 							<ChildrenList>
-								<Action Name="" ID="{1275CB0D-8518-4702-84E2-BA38076EF1DC}" ShortID="517649730">
+								<Action Name="" ID="{DE8F164B-7D14-4697-A261-45A20B3938B2}" ShortID="737435546">
 									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Sleep" ID="{40A1C434-CBBB-4206-BB10-FB7A3EE94686}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
+											<ObjectRef Name="Sleep" ID="{178A58F8-7A81-4569-830C-735851847868}" WorkUnitID="{E512E098-643E-4A43-8A65-E48A390FFBAE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
