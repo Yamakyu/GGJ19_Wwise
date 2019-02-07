@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D24325DC-1C41-47EA-8534-9F1F65309B32}" SchemaVersion="89">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{D24325DC-1C41-47EA-8534-9F1F65309B32}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D24325DC-1C41-47EA-8534-9F1F65309B32}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Yaourter" ID="{808D0EEE-6D3F-48C8-8C0B-EEF1E9925237}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="85"/>
+						<Property Name="ModFrequency" Type="Real32" Value="440"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Yaourter_2" ID="{80792AA0-6D5B-4E60-8EDC-793307761EEB}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="90"/>
+						<Property Name="ModFrequency" Type="Real32" Value="200"/>
+						<Property Name="ModWaveform" Type="int32" Value="1"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Yaourt_Delay" ID="{54A17AF5-8AB9-4ECF-984C-794CCE567E6E}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.1"/>
+						<Property Name="Feedback" Type="Real32" Value="40"/>
+						<Property Name="WetDryMix" Type="Real32" Value="75"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Delay_Mean" ID="{1A022D31-E7AD-4D75-8C72-D18A2C614668}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.15"/>
+						<Property Name="Feedback" Type="Real32" Value="50"/>
+						<Property Name="WetDryMix" Type="Real32" Value="20"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Yaourter_Mean" ID="{D9CC45D0-7F83-493F-A79B-B1F51DCE17D6}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32" Value="75"/>
+						<Property Name="ModFrequency" Type="Real32" Value="60"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

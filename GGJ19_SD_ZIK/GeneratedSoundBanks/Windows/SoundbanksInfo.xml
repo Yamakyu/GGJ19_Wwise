@@ -21,28 +21,20 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4024420889" Name="Amb_Cafe" ObjectPath="\Events\Default Work Unit\Ambiance\Amb_Cafe" MaxAttenuation="0.000000"/>
-				<Event Id="496664849" Name="Amb_Creep" ObjectPath="\Events\Default Work Unit\Ambiance\Amb_Creep" MaxAttenuation="0.000000"/>
-				<Event Id="2125145056" Name="Amb_Night" ObjectPath="\Events\Default Work Unit\Ambiance\Amb_Night" MaxAttenuation="0.000000"/>
-				<Event Id="1592801615" Name="Amb_Street" ObjectPath="\Events\Default Work Unit\Ambiance\Amb_Street" MaxAttenuation="0.000000"/>
 				<Event Id="1185755620" Name="Env_Greet_Mean" ObjectPath="\Events\Default Work Unit\Environnement\Env_Greet_Mean"/>
 				<Event Id="1954323868" Name="Env_Greet_Nice" ObjectPath="\Events\Default Work Unit\Environnement\Env_Greet_Nice"/>
 				<Event Id="3473760295" Name="Env_Room_Enter" ObjectPath="\Events\Default Work Unit\Environnement\Env_Room_Enter"/>
 				<Event Id="3615062280" Name="Env_Room_Leave" ObjectPath="\Events\Default Work Unit\Environnement\Env_Room_Leave"/>
 				<Event Id="733168346" Name="Game_Start" ObjectPath="\Events\Default Work Unit\Game_Start"/>
-				<Event Id="1842260389" Name="P_Comfort_Create" ObjectPath="\Events\Default Work Unit\Player\P_Comfort_Create"/>
-				<Event Id="2748895709" Name="P_Comfort_Extend" ObjectPath="\Events\Default Work Unit\Player\P_Comfort_Extend" MaxAttenuation="0.000000"/>
-				<Event Id="844915450" Name="P_GameOver" ObjectPath="\Events\Default Work Unit\Player\P_GameOver"/>
 				<Event Id="2319977171" Name="P_Sleep" ObjectPath="\Events\Default Work Unit\Player\P_Sleep" MaxAttenuation="0.000000"/>
 				<Event Id="3061350027" Name="P_Success" ObjectPath="\Events\Default Work Unit\Player\P_Success"/>
-				<Event Id="3240909698" Name="P_Success_Final" ObjectPath="\Events\Default Work Unit\Player\P_Success_Final" MaxAttenuation="0.000000"/>
 				<Event Id="1065524949" Name="P_Walk" ObjectPath="\Events\Default Work Unit\Player\P_Walk"/>
 				<Event Id="4256079544" Name="P_Walk_Stop" ObjectPath="\Events\Default Work Unit\Player\P_Walk_Stop" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="147031736" Language="SFX">
 					<ShortName>SFX_20-SFX_Greet_Nice_P1_-190206_2257-01.wav</ShortName>
-					<Path>SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-01_D815DB73.wem</Path>
+					<Path>SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-01_7601114A.wem</Path>
 				</File>
 				<File Id="210929948" Language="SFX">
 					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001.wav</ShortName>
@@ -50,19 +42,19 @@
 				</File>
 				<File Id="238797332" Language="SFX">
 					<ShortName>SFX_Door_Close_-_190206_2312-01.wav</ShortName>
-					<Path>SFX\SFX_Door_Close_-_190206_2312-01_A0CEAF40.wem</Path>
+					<Path>SFX\SFX_Door_Close_-_190206_2312-01_ED637E89.wem</Path>
 				</File>
 				<File Id="296990318" Language="SFX">
 					<ShortName>SFX_Door_Open_-_190206_2312.wav</ShortName>
-					<Path>SFX\SFX_Door_Open_-_190206_2312_ECABFA2C.wem</Path>
+					<Path>SFX\SFX_Door_Open_-_190206_2312_1A83B4E0.wem</Path>
 				</File>
-				<File Id="360405660" Language="SFX">
-					<ShortName>SFX_22-SFX_Greet_Nice_P2_-190206_2257-03.wav</ShortName>
-					<Path>SFX\SFX_22-SFX_Greet_Nice_P2_-190206_2257-03_139CCFC2.wem</Path>
+				<File Id="340150019" Language="SFX">
+					<ShortName>SFX_22-SFX_Greet_Nice_P2_-190207_1940.wav</ShortName>
+					<Path>SFX\SFX_22-SFX_Greet_Nice_P2_-190207_1940_B706F992.wem</Path>
 				</File>
 				<File Id="363381608" Language="SFX">
 					<ShortName>SFX_20-SFX_Greet_Nice_P1_-190206_2257-04.wav</ShortName>
-					<Path>SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-04_53F19776.wem</Path>
+					<Path>SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-04_C6EC1258.wem</Path>
 				</File>
 				<File Id="459188833" Language="SFX">
 					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003.wav</ShortName>
@@ -72,25 +64,25 @@
 					<ShortName>08-CONFORT - PIANO-190127_1259_-_Comf_The_Game_-_ZIK_v1.wav</ShortName>
 					<Path>SFX\08-CONFORT - PIANO-190127_1259_-_Comf_The_Game_-_ZIK_v1_0CBEF50C.wem</Path>
 				</File>
+				<File Id="566161895" Language="SFX">
+					<ShortName>SFX_Door_Close_-_190206_2312-01.wav</ShortName>
+					<Path>SFX\SFX_Door_Close_-_190206_2312-01_82DD1F87.wem</Path>
+				</File>
 				<File Id="585563920" Language="SFX">
 					<ShortName>04-HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001.wav</ShortName>
 					<Path>SFX\04-HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001_0CBEF50C.wem</Path>
-				</File>
-				<File Id="597055112" Language="SFX">
-					<ShortName>SFX_20-SFX_Greet_Nice_P1_-190206_2257.wav</ShortName>
-					<Path>SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257_D8EB81C4.wem</Path>
 				</File>
 				<File Id="613715007" Language="SFX">
 					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-006.wav</ShortName>
 					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-006_56D34C19.wem</Path>
 				</File>
+				<File Id="743935954" Language="SFX">
+					<ShortName>SFX_20-SFX_Greet_Nice_P1_-190207_1940.wav</ShortName>
+					<Path>SFX\SFX_20-SFX_Greet_Nice_P1_-190207_1940_56D34C19.wem</Path>
+				</File>
 				<File Id="766159121" Language="SFX">
 					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-004.wav</ShortName>
 					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-004_56D34C19.wem</Path>
-				</File>
-				<File Id="811073043" Language="SFX">
-					<ShortName>SFX_20-SFX_Greet_Nice_P1_-190206_2257-03.wav</ShortName>
-					<Path>SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-03_CFC13524.wem</Path>
 				</File>
 				<File Id="835582807" Language="SFX">
 					<ShortName>06-HOME - MUSIC BOX-190127_1259_-_Comf_The_Game_-_ZIK_v1-001.wav</ShortName>
@@ -118,15 +110,7 @@
 				</File>
 				<File Id="967445526" Language="SFX">
 					<ShortName>SFX_22-SFX_Greet_Nice_P2_-190206_2257-01.wav</ShortName>
-					<Path>SFX\SFX_22-SFX_Greet_Nice_P2_-190206_2257-01_89BDBE60.wem</Path>
-				</File>
-				<File Id="980607574" Language="SFX">
-					<ShortName>SFX_22-SFX_Greet_Nice_P2_-190206_2257-04.wav</ShortName>
-					<Path>SFX\SFX_22-SFX_Greet_Nice_P2_-190206_2257-04_59215EA1.wem</Path>
-				</File>
-				<File Id="1047265520" Language="SFX">
-					<ShortName>SFX_22-SFX_Greet_Nice_P2_-190206_2257.wav</ShortName>
-					<Path>SFX\SFX_22-SFX_Greet_Nice_P2_-190206_2257_1BCDEE48.wem</Path>
+					<Path>SFX\SFX_22-SFX_Greet_Nice_P2_-190206_2257-01_F92B33F7.wem</Path>
 				</File>
 				<File Id="1063141169" Language="SFX">
 					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-005.wav</ShortName>

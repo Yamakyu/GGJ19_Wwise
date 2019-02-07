@@ -29,6 +29,10 @@
 							<ObjectRef Name="Env_Greet_Nice" ID="{552B5C25-08FE-4EAA-8910-6472CD586465}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}"/>
 							<Position X="2" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Env_Greet_Mean" ID="{19D9E294-2028-48DE-8082-3ADA6F45BE5B}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}"/>
+							<Position X="3" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>

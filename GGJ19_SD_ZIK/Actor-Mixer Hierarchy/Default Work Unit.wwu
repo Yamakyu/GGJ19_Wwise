@@ -453,34 +453,16 @@
 										<ItemRef Name="Sleep_-_190203_1904_-_Comf_The_Game" ID="{52D1E7C1-A717-45C2-AEBF-67967406EDEA}"/>
 									</Playlist>
 								</RandomSequenceContainer>
-								<Sound Name="Door_Close_-_190206_2312-01" ID="{5C769B93-2721-4583-8690-2733A683D242}" ShortID="1051467990">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Door_Close_-_190206_2312-01" ID="{CC1E7EFE-AE41-4384-8684-EAE07B6AAE60}" ShortID="238797332">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.292067586017755"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.76902724864413"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>SFX_Door_Close_-_190206_2312-01.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Door_Close_-_190206_2312-01" ID="{CC1E7EFE-AE41-4384-8684-EAE07B6AAE60}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Door_Open_-_190206_2312" ID="{142F335C-EC2C-4808-93DD-BA0F0117F8AA}" ShortID="732065937">
 									<PropertyList>
-										<Property Name="Volume" Type="Real64">
+										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>6</Value>
+												<Value>32</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>100</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -506,6 +488,115 @@
 										<ActiveSource Name="SFX_Door_Open_-_190206_2312" ID="{A188693F-10B7-456F-A4F7-DF6F918CB7D2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Door_close" ID="{384A95E9-8A45-4DA2-B8DA-92541D6B8769}" ShortID="938945735">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>200</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Squeak_Door_Close_-_190206_2312-01" ID="{5C769B93-2721-4583-8690-2733A683D242}" ShortID="1051467990">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Bus_SFX" ID="{927138BA-A980-4934-B3A9-8985E0E1CD77}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Door_Close_-_190206_2312-01" ID="{CC1E7EFE-AE41-4384-8684-EAE07B6AAE60}" ShortID="238797332">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.42471993179392E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.667243834723493"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_Door_Close_-_190206_2312-01.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="566161895"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Door_Close_-_190206_2312-01" ID="{CC1E7EFE-AE41-4384-8684-EAE07B6AAE60}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Shut_Door_Close_-_190206_2312-01_01" ID="{A510177F-6F43-4F83-BDB6-3EB18899F44F}" ShortID="294501263">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>32</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Bus_SFX" ID="{927138BA-A980-4934-B3A9-8985E0E1CD77}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Door_Close_-_190206_2312-01" ID="{308AF5CE-827A-417F-9477-8E8B99B194F0}" ShortID="566161895">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="6.64869301503833E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.930817022105366"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.667243834723489"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.76902724864413"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SFX_Door_Close_-_190206_2312-01.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="238797332"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Door_Close_-_190206_2312-01" ID="{308AF5CE-827A-417F-9477-8E8B99B194F0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Squeak_Door_Close_-_190206_2312-01" ID="{5C769B93-2721-4583-8690-2733A683D242}"/>
+										<ItemRef Name="Shut_Door_Close_-_190206_2312-01_01" ID="{A510177F-6F43-4F83-BDB6-3EB18899F44F}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Environment" ID="{3B798693-07CA-4184-BE06-4F18A8F25DA2}" ShortID="12399996">
@@ -515,9 +606,40 @@
 							</PropertyList>
 							<ChildrenList>
 								<Sound Name="SFX_Greetings_Mean-190127_0008" ID="{BFBFD158-042B-4A19-BA1A-493BBDA4E974}" ShortID="75372467">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{05571BC9-88AE-48FC-B8E1-8956B8EBC3D1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Yaourter_Mean" ID="{D9CC45D0-7F83-493F-A79B-B1F51DCE17D6}" WorkUnitID="{D24325DC-1C41-47EA-8534-9F1F65309B32}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+											<ObjectRef Name="Delay_Mean" ID="{1A022D31-E7AD-4D75-8C72-D18A2C614668}" WorkUnitID="{D24325DC-1C41-47EA-8534-9F1F65309B32}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
@@ -533,57 +655,26 @@
 										<ActiveSource Name="SFX_Greetings_Mean-190127_0008" ID="{BFB9A011-FF6F-459C-ACD5-1C50AC4DB7ED}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Folder Name="Greetings_Nice" ID="{484FFE2A-F9B7-48FF-A0C4-8DDC1F649E39}" ShortID="385348951">
+								<BlendContainer Name="Greetings Nice" ID="{1C8E877A-B85B-4B46-A5A8-5EE79523EAD6}" ShortID="1070292274">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Bus_SFX" ID="{927138BA-A980-4934-B3A9-8985E0E1CD77}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+										</Reference>
+									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_Greetings_Nice-190126_2310" ID="{BEAEA983-A88F-4E07-901C-75C4565D9A47}" ShortID="550610671">
-											<PropertyList>
-												<Property Name="Highpass" Type="int16">
-													<ValueList>
-														<Value>40</Value>
-													</ValueList>
-												</Property>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList>
-														<Value>False</Value>
-													</ValueList>
-												</Property>
-												<Property Name="Pitch" Type="int32">
-													<ValueList>
-														<Value>200</Value>
-													</ValueList>
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{3250F33D-6185-42E3-A2E0-2A121110CE1E}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="100"/>
-																	<Property Name="Min" Type="Real64" Value="-200"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Bus_SFX" ID="{927138BA-A980-4934-B3A9-8985E0E1CD77}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Greetings_Nice-190126_2310" ID="{D0623E8C-7F7D-4036-8BD1-6FE54960396A}" ShortID="396802700">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Greetings_Nice-190126_2310.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Greetings_Nice-190126_2310" ID="{D0623E8C-7F7D-4036-8BD1-6FE54960396A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<RandomSequenceContainer Name="Greet_Nice_P1" ID="{87CD32B4-4FDF-46A1-8E2E-9EBDA1FCFD54}" ShortID="321148849">
 											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -596,22 +687,27 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>3</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+													<ObjectRef Name="Yaourter" ID="{808D0EEE-6D3F-48C8-8C0B-EEF1E9925237}" WorkUnitID="{D24325DC-1C41-47EA-8534-9F1F65309B32}"/>
+												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+													<ObjectRef Name="Bus_SFX" ID="{927138BA-A980-4934-B3A9-8985E0E1CD77}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Greet_Nice_P1_-190206_2257" ID="{5939F2E1-2992-4BC6-8576-62715209020F}" ShortID="527044728">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
@@ -660,6 +756,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Greet_Nice_P1_-190206_2257-03" ID="{9D981E83-1709-45F2-9E40-1302237BBC8A}" ShortID="568026103">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
@@ -688,7 +791,7 @@
 													<PropertyList>
 														<Property Name="Pitch" Type="int32">
 															<ValueList>
-																<Value>200</Value>
+																<Value>400</Value>
 															</ValueList>
 														</Property>
 														<Property Name="Volume" Type="Real64">
@@ -721,10 +824,30 @@
 														<ActiveSource Name="SFX_20-SFX_Greet_Nice_P1_-190206_2257-04" ID="{7EAE8413-73F5-4C9D-80F0-91F37E3828E5}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="SFX_20-SFX_Greet_Nice_P1_-190207_1940" ID="{9DF93D8E-FCD2-43F6-A63A-7C715D913802}" ShortID="98040773">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_20-SFX_Greet_Nice_P1_-190207_1940" ID="{83077C19-6228-4274-91A0-E77EBFDA989A}" ShortID="743935954">
+															<Language>SFX</Language>
+															<AudioFile>SFX_20-SFX_Greet_Nice_P1_-190207_1940.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_20-SFX_Greet_Nice_P1_-190207_1940" ID="{83077C19-6228-4274-91A0-E77EBFDA989A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Greet_Nice_P2" ID="{A14620D3-D6F0-4E76-98A9-18377FA796C1}" ShortID="321390628">
 											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -749,11 +872,18 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+													<ObjectRef Name="Bus_SFX" ID="{927138BA-A980-4934-B3A9-8985E0E1CD77}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Greet_Nice_P2_-190206_2257" ID="{DB95454C-D8BA-445A-98C1-7FD79DFC3D71}" ShortID="603739002">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
@@ -806,6 +936,11 @@
 																<Value>29</Value>
 															</ValueList>
 														</Property>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-1.5</Value>
@@ -843,9 +978,14 @@
 												</Sound>
 												<Sound Name="Greet_Nice_P2_-190206_2257-04" ID="{5BF5FE64-779A-4A56-9938-548CCE5EDD86}" ShortID="847348317">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Pitch" Type="int32">
 															<ValueList>
-																<Value>100</Value>
+																<Value>400</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -873,10 +1013,95 @@
 														<ActiveSource Name="SFX_22-SFX_Greet_Nice_P2_-190206_2257-04" ID="{D0D23A91-D01E-4691-A611-18D276F67327}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="SFX_22-SFX_Greet_Nice_P2_-190207_1940" ID="{6D438CCF-FBD1-434A-89A2-CF45EBD21E0A}" ShortID="700987165">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{5CCF24D6-B447-44BE-89E9-60E220B933A4}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-9</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_22-SFX_Greet_Nice_P2_-190207_1940" ID="{F3737636-BF9A-4A36-95BD-643513BA8AC9}" ShortID="340150019">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.163048266925818"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.55316375220845"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>SFX_22-SFX_Greet_Nice_P2_-190207_1940.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_22-SFX_Greet_Nice_P2_-190207_1940" ID="{F3737636-BF9A-4A36-95BD-643513BA8AC9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
-								</Folder>
+								</BlendContainer>
+								<Sound Name="SFX_Greetings_Nice-190126_2310" ID="{BEAEA983-A88F-4E07-901C-75C4565D9A47}" ShortID="550610671">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>40</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>200</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3250F33D-6185-42E3-A2E0-2A121110CE1E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3A7EA5A3-F510-4A89-9E6E-1570B507261E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Bus_SFX" ID="{927138BA-A980-4934-B3A9-8985E0E1CD77}" WorkUnitID="{D19FAEA2-21FF-4C79-B802-EEB5F55A8B86}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Greetings_Nice-190126_2310" ID="{D0623E8C-7F7D-4036-8BD1-6FE54960396A}" ShortID="396802700">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Greetings_Nice-190126_2310.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Greetings_Nice-190126_2310" ID="{D0623E8C-7F7D-4036-8BD1-6FE54960396A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

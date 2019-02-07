@@ -1,20 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
-	496664849	Amb_Creep			\Default Work Unit\Ambiance\Amb_Creep	
 	733168346	Game_Start			\Default Work Unit\Game_Start	
-	844915450	P_GameOver			\Default Work Unit\Player\P_GameOver	
 	1065524949	P_Walk			\Default Work Unit\Player\P_Walk	
 	1185755620	Env_Greet_Mean			\Default Work Unit\Environnement\Env_Greet_Mean	
-	1592801615	Amb_Street			\Default Work Unit\Ambiance\Amb_Street	
-	1842260389	P_Comfort_Create			\Default Work Unit\Player\P_Comfort_Create	
 	1954323868	Env_Greet_Nice			\Default Work Unit\Environnement\Env_Greet_Nice	
-	2125145056	Amb_Night			\Default Work Unit\Ambiance\Amb_Night	
 	2319977171	P_Sleep			\Default Work Unit\Player\P_Sleep	
-	2748895709	P_Comfort_Extend			\Default Work Unit\Player\P_Comfort_Extend	
 	3061350027	P_Success			\Default Work Unit\Player\P_Success	
-	3240909698	P_Success_Final			\Default Work Unit\Player\P_Success_Final	
 	3473760295	Env_Room_Enter			\Default Work Unit\Environnement\Env_Room_Enter	
 	3615062280	Env_Room_Leave			\Default Work Unit\Environnement\Env_Room_Leave	
-	4024420889	Amb_Cafe			\Default Work Unit\Ambiance\Amb_Cafe	
 	4256079544	P_Walk_Stop			\Default Work Unit\Player\P_Walk_Stop	
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -43,28 +35,31 @@ Custom State	ID	Name	State Group	Owner		Notes
 Trigger	ID	Name			Wwise Object Path	Notes
 	3671647190	Sleep			\Default Work Unit\Sleep	
 
+Effect plug-ins	ID	Name	Type				Notes
+	329851940	Yaourter_Mean	Wwise Tremolo			
+	2022136752	Yaourter	Wwise Tremolo			
+	3358037258	Delay_Mean	Wwise Delay			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	147031736	Greet_Nice_P1_-190206_2257-01	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-01_D815DB73.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings_Nice\Greet_Nice_P1\Greet_Nice_P1_-190206_2257-01		92172
+	147031736	Greet_Nice_P1_-190206_2257-01	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-01_7601114A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings Nice\Greet_Nice_P1\Greet_Nice_P1_-190206_2257-01		92172
 	210929948	SFX_Player_Footsteps_-_v2_190126_2144-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001		110156
-	238797332	Door_Close_-_190206_2312-01	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Door_Close_-_190206_2312-01_A0CEAF40.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Door_Close_-_190206_2312-01		312120
-	296990318	Door_Open_-_190206_2312	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Door_Open_-_190206_2312_ECABFA2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Door_Open_-_190206_2312		355644
-	360405660	Greet_Nice_P2_-190206_2257-03	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_22-SFX_Greet_Nice_P2_-190206_2257-03_139CCFC2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings_Nice\Greet_Nice_P2\Greet_Nice_P2_-190206_2257-03		133752
-	363381608	Greet_Nice_P1_-190206_2257-04	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-04_53F19776.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings_Nice\Greet_Nice_P1\Greet_Nice_P1_-190206_2257-04		153596
+	238797332	Shut_Door_Close_-_190206_2312-01_01	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Door_Close_-_190206_2312-01_ED637E89.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Door_close\Shut_Door_Close_-_190206_2312-01_01		194420
+	296990318	Door_Open_-_190206_2312	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Door_Open_-_190206_2312_1A83B4E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Door_Open_-_190206_2312		355644
+	340150019	SFX_22-SFX_Greet_Nice_P2_-190207_1940	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_22-SFX_Greet_Nice_P2_-190207_1940_B706F992.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings Nice\Greet_Nice_P2\SFX_22-SFX_Greet_Nice_P2_-190207_1940		97644
+	363381608	Greet_Nice_P1_-190206_2257-04	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-04_C6EC1258.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings Nice\Greet_Nice_P1\Greet_Nice_P1_-190206_2257-04		153596
 	459188833	SFX_Player_Footsteps_-_v2_190126_2144-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003		116020
 	475973611	CONFORT_____-_Comf_The_Game_-_ZIK_v1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\08-CONFORT - PIANO-190127_1259_-_Comf_The_Game_-_ZIK_v1_0CBEF50C.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\Main_Music\CONFORT_____-_Comf_The_Game_-_ZIK_v1		2487921
+	566161895	Squeak_Door_Close_-_190206_2312-01	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Door_Close_-_190206_2312-01_82DD1F87.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Door_close\Squeak_Door_Close_-_190206_2312-01		117764
 	585563920	HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\04-HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001_0CBEF50C.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\Main_Music\HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001		2377263
-	597055112	Greet_Nice_P1_-190206_2257	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257_D8EB81C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings_Nice\Greet_Nice_P1\Greet_Nice_P1_-190206_2257		131412
 	613715007	SFX_Player_Footsteps_-_v2_190126_2144-006	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-006_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-006		109376
+	743935954	SFX_20-SFX_Greet_Nice_P1_-190207_1940	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_20-SFX_Greet_Nice_P1_-190207_1940_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings Nice\Greet_Nice_P1\SFX_20-SFX_Greet_Nice_P1_-190207_1940		201396
 	766159121	SFX_Player_Footsteps_-_v2_190126_2144-004	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-004_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-004		109520
-	811073043	Greet_Nice_P1_-190206_2257-03	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-03_CFC13524.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings_Nice\Greet_Nice_P1\Greet_Nice_P1_-190206_2257-03		118188
 	835582807	HOME_____-_Comf_The_Game_-_ZIK_v1-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\06-HOME - MUSIC BOX-190127_1259_-_Comf_The_Game_-_ZIK_v1-001_0CBEF50C.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\Main_Music\HOME_____-_Comf_The_Game_-_ZIK_v1-001		2517579
 	851105092	BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\02-BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001_0CBEF50C.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\Main_Music\BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001		2325016
 	867255748	Player_Comfort_Create_-_190126_21h17	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Player_Comfort_Create_-_190126_21h17_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Player_Comfort_Create_-_190126_21h17		634164
 	898649096	SFX_Greetings_Mean-190127_0008	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Greetings_Mean-190127_0008_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\SFX_Greetings_Mean-190127_0008		383912
 	908068609	SFX_Player_Footsteps_-_v2_190126_2144-002	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-002		112676
 	917465485	Sleep_-_190203_1904_-_Comf_The_Game	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Sleep_-_190203_1904_-_Comf_The_Game_0CBEF50C.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\STNGR_Sleep\Sleep_-_190203_1904_-_Comf_The_Game		57455
-	967445526	Greet_Nice_P2_-190206_2257-01	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_22-SFX_Greet_Nice_P2_-190206_2257-01_89BDBE60.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings_Nice\Greet_Nice_P2\Greet_Nice_P2_-190206_2257-01		154152
-	980607574	Greet_Nice_P2_-190206_2257-04	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_22-SFX_Greet_Nice_P2_-190206_2257-04_59215EA1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings_Nice\Greet_Nice_P2\Greet_Nice_P2_-190206_2257-04		147592
-	1047265520	Greet_Nice_P2_-190206_2257	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_22-SFX_Greet_Nice_P2_-190206_2257_1BCDEE48.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings_Nice\Greet_Nice_P2\Greet_Nice_P2_-190206_2257		119168
+	967445526	Greet_Nice_P2_-190206_2257-01	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_22-SFX_Greet_Nice_P2_-190206_2257-01_F92B33F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings Nice\Greet_Nice_P2\Greet_Nice_P2_-190206_2257-01		154152
 	1063141169	SFX_Player_Footsteps_-_v2_190126_2144-005	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-005_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-005		107048
 

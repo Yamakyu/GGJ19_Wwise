@@ -3,18 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Ambiance" ID="{C9E8D81B-572C-4691-A2E6-9BD0098BC06C}" ShortID="872966726">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="16"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Event Name="Amb_Cafe" ID="{A277B63D-CF75-4278-AB7D-6AFD2D9A1E9E}"/>
-						<Event Name="Amb_Creep" ID="{57BE963C-1014-432E-9627-9A6B86BE8579}"/>
-						<Event Name="Amb_Night" ID="{4DB4C825-A2C0-41B2-9A2C-7B824BE5A342}"/>
-						<Event Name="Amb_Street" ID="{762D231F-E452-434A-94DE-9BDFF21EE810}"/>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="Environnement" ID="{5F50039A-FFB7-4A80-8DC1-A2FB205CDB27}" ShortID="596454361">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="20"/>
@@ -45,20 +33,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Env_Greet_Mean" ID="{C95FEC2A-3245-4670-BBE3-38DC710A145C}">
-							<ChildrenList>
-								<Action Name="" ID="{FCE2C0CD-2F00-42C0-9DBC-E3F0766DF4D9}" ShortID="261001980">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX_Greetings_Mean-190127_0008" ID="{BFBFD158-042B-4A19-BA1A-493BBDA4E974}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Env_Room_Enter" ID="{4BABC485-C3C4-44E4-A720-C72152251769}">
 							<ChildrenList>
 								<Action Name="" ID="{949B9F63-E7AC-416F-B30B-F5E094CC165B}" ShortID="941541761">
@@ -75,13 +49,27 @@
 						</Event>
 						<Event Name="Env_Room_Leave" ID="{6C6B070A-14E0-4A27-BD79-450BA8A7885C}">
 							<ChildrenList>
-								<Action Name="" ID="{560DCE4B-FA6E-4C6A-9EC0-19F38810FC00}" ShortID="829059204">
+								<Action Name="" ID="{F3006B68-ECE5-4C89-B2D8-EA504ECF7BBF}" ShortID="992102253">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Door_Close_-_190206_2312-01" ID="{5C769B93-2721-4583-8690-2733A683D242}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
+											<ObjectRef Name="Door_close" ID="{384A95E9-8A45-4DA2-B8DA-92541D6B8769}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Env_Greet_Mean" ID="{19D9E294-2028-48DE-8082-3ADA6F45BE5B}">
+							<ChildrenList>
+								<Action Name="" ID="{5A9F5ADC-DA21-40B6-A6A1-8091755D1204}" ShortID="965312122">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Greetings_Mean-190127_0008" ID="{BFBFD158-042B-4A19-BA1A-493BBDA4E974}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -95,21 +83,6 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="P_Success_Final" ID="{1170453B-03F8-4692-A49A-5B36FAE06CBB}"/>
-						<Event Name="P_Comfort_Create" ID="{4F615B21-9EF8-4C53-BD80-312D793E5673}">
-							<ChildrenList>
-								<Action Name="" ID="{891567B6-B985-41D8-B9EE-E124B674983B}" ShortID="972753668">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Player_Comfort_Create_-_190126_21h17" ID="{F48B6682-204C-4F85-BEA1-31311F09F5BA}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="P_Walk_Stop" ID="{16567D2E-FFC0-435C-A959-93AF1B9021BC}">
 							<ChildrenList>
 								<Action Name="" ID="{ACB34270-47CD-4036-A302-F8700C748C20}" ShortID="1052657332">
@@ -142,7 +115,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="P_Comfort_Extend" ID="{C86D8A28-B82C-48B1-B44D-F9985AC4AA81}"/>
 						<Event Name="P_Success" ID="{8D371FCA-1D30-4A49-A626-DCF93EAAE609}">
 							<ChildrenList>
 								<Action Name="" ID="{27F4D888-FE9B-465D-AC03-B05A7A179C72}" ShortID="639618951">
@@ -152,43 +124,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Player_Comfort_Create_-_190126_21h17" ID="{F48B6682-204C-4F85-BEA1-31311F09F5BA}" WorkUnitID="{CB436546-C220-4829-9AD6-4D3C0F163E2A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="P_GameOver" ID="{17B969FB-9965-47F7-A7B7-AA90DA1CB7F9}">
-							<ChildrenList>
-								<Action Name="" ID="{B2289A64-D5C6-4319-AD09-3698A147FDFF}" ShortID="809479202">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
-										<Property Name="Scope" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Game_Music" ID="{9CADDDE3-B095-4EDC-9B5A-B4A78A1EC081}" WorkUnitID="{3523F2AC-2831-455D-8670-D442E34C23EB}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{3C522307-A517-4346-A66D-314324B909EE}" ShortID="612716312">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Game_Over" ID="{A28E0553-A562-459D-ABCD-9518C2E443B7}" WorkUnitID="{25E0D606-1B98-42F5-AD6D-99E7711E1D1A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{4FAE8832-5599-4DF8-A884-FD821B2F5EEE}" ShortID="309023229">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Game_Music" ID="{9CADDDE3-B095-4EDC-9B5A-B4A78A1EC081}" WorkUnitID="{3523F2AC-2831-455D-8670-D442E34C23EB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
