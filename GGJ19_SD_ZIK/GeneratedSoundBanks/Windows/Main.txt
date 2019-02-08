@@ -11,26 +11,19 @@ Event	ID	Name			Wwise Object Path	Notes
 
 State Group	ID	Name			Wwise Object Path	Notes
 	49801481	ST_Close_Home			\Default Work Unit\ST_Close_Home	Controle le MUSIC BOX (reversed, close = affar, vice versa)
-	2591331092	ST_Time			\Default Work Unit\ST_Time	Etouffement de la zik
 	3384181978	ST_Player_Confort			\Default Work Unit\ST_Player_Confort	Contrôle le PIANO 
 
 State	ID	Name	State Group			Notes
 	0	None	ST_Close_Home			
 	1451272583	Close	ST_Close_Home			Reverse C'est actually *affar* dans le code
 	3347064807	Affar	ST_Close_Home			Reverse C'est actually *close* dans le code
-	0	None	ST_Time			
-	311764537	Day	ST_Time			
-	1011622525	Night	ST_Time			
 	0	None	ST_Player_Confort			
 	979470758	Yes	ST_Player_Confort			
 	1668749452	No	ST_Player_Confort			
 
 Custom State	ID	Name	State Group	Owner		Notes
-	42502312	Night	ST_Time	\Interactive Music Hierarchy\Default Work Unit\Game_Music\Main_Music\CONFORT_____-_Comf_The_Game_-_ZIK_v1		
-	141941914	Night	ST_Time	\Interactive Music Hierarchy\Default Work Unit\Game_Music\Main_Music\BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001		
 	494884549	Affar	ST_Close_Home	\Interactive Music Hierarchy\Default Work Unit\Game_Music\Main_Music\HOME_____-_Comf_The_Game_-_ZIK_v1-001		Reverse C'est actually *close* dans le code
 	759405775	No	ST_Player_Confort	\Interactive Music Hierarchy\Default Work Unit\Game_Music\Main_Music\CONFORT_____-_Comf_The_Game_-_ZIK_v1		
-	914788374	Night	ST_Time	\Interactive Music Hierarchy\Default Work Unit\Game_Music\Main_Music\HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001		
 
 Trigger	ID	Name			Wwise Object Path	Notes
 	3671647190	Sleep			\Default Work Unit\Sleep	
@@ -45,7 +38,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	210929948	SFX_Player_Footsteps_-_v2_190126_2144-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001		110156
 	238797332	Shut_Door_Close_-_190206_2312-01_01	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Door_Close_-_190206_2312-01_ED637E89.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Door_close\Shut_Door_Close_-_190206_2312-01_01		194420
 	296990318	Door_Open_-_190206_2312	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Door_Open_-_190206_2312_1A83B4E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Door_Open_-_190206_2312		355644
-	340150019	SFX_22-SFX_Greet_Nice_P2_-190207_1940	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_22-SFX_Greet_Nice_P2_-190207_1940_B706F992.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings Nice\Greet_Nice_P2\SFX_22-SFX_Greet_Nice_P2_-190207_1940		97644
+	340150019	SFX_22-SFX_Greet_Nice_P2_-190207_1940	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_22-SFX_Greet_Nice_P2_-190207_1940_5C1C3765.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings Nice\Greet_Nice_P2\SFX_22-SFX_Greet_Nice_P2_-190207_1940		97644
 	363381608	Greet_Nice_P1_-190206_2257-04	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-04_C6EC1258.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings Nice\Greet_Nice_P1\Greet_Nice_P1_-190206_2257-04		153596
 	459188833	SFX_Player_Footsteps_-_v2_190126_2144-003	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003		116020
 	475973611	CONFORT_____-_Comf_The_Game_-_ZIK_v1	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\08-CONFORT - PIANO-190127_1259_-_Comf_The_Game_-_ZIK_v1_0CBEF50C.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\Main_Music\CONFORT_____-_Comf_The_Game_-_ZIK_v1		2487921

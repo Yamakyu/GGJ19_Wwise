@@ -173,16 +173,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{BAC4EC31-3119-4DC4-B5DB-8E3AC5DC64BA}" ShortID="241672660">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Running" ID="{616F3CA1-B418-412D-BF96-AB904D1BAE29}" WorkUnitID="{1AAB9C92-22C5-42DC-A59F-24EB22723733}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{0CD31162-F768-4FF9-91EA-34F2D1C337C0}" ShortID="130036001">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>
@@ -190,16 +180,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Yes" ID="{2663488A-2F78-4993-8225-163E7F327CD6}" WorkUnitID="{1AAB9C92-22C5-42DC-A59F-24EB22723733}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{DF9D7669-9A11-43F8-B152-056BFC9DAD7D}" ShortID="258449651">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}" WorkUnitID="{1AAB9C92-22C5-42DC-A59F-24EB22723733}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

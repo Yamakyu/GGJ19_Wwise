@@ -10,7 +10,6 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="30"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="RTPC_Health" ID="{49C28716-A5C6-4964-B8B9-5131ADBC86D7}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

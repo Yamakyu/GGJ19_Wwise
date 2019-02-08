@@ -20,38 +20,6 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
-				<StateGroup Name="ST_Game_Running" ID="{61D67EA4-E4BB-460A-B2D2-466070D786E9}">
-					<Comment>Not used</Comment>
-					<ChildrenList>
-						<State Name="None" ID="{61747452-9091-454C-AFA4-489AADD38C1D}"/>
-						<State Name="Paused" ID="{98B25D85-0183-4CA2-9361-807BB4859AD7}"/>
-						<State Name="Running" ID="{616F3CA1-B418-412D-BF96-AB904D1BAE29}"/>
-					</ChildrenList>
-					<TransitionList>
-						<Transition>
-							<StartState Name="Running" ID="{616F3CA1-B418-412D-BF96-AB904D1BAE29}"/>
-							<EndState Name="Paused" ID="{98B25D85-0183-4CA2-9361-807BB4859AD7}"/>
-							<Time>0.5</Time>
-							<IsShared>true</IsShared>
-						</Transition>
-					</TransitionList>
-				</StateGroup>
-				<StateGroup Name="ST_Time" ID="{EC2E261E-2C20-4725-A621-723BEB9A61CB}">
-					<Comment>Etouffement de la zik</Comment>
-					<ChildrenList>
-						<State Name="None" ID="{C41378F9-E5C1-487A-A156-C84EAA67B991}"/>
-						<State Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
-						<State Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
-					</ChildrenList>
-					<TransitionList>
-						<Transition>
-							<StartState Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
-							<EndState Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
-							<Time>1</Time>
-							<IsShared>true</IsShared>
-						</Transition>
-					</TransitionList>
-				</StateGroup>
 				<StateGroup Name="ST_Close_Home" ID="{20F1CD12-AD62-4F7F-B925-51642DFF4907}">
 					<Comment>Controle le MUSIC BOX
 (reversed, close = affar, vice versa)</Comment>

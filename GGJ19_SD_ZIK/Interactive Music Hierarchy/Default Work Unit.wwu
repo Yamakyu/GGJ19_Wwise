@@ -54,27 +54,6 @@
 											<AudioFile>02-BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
-									<StateInfo>
-										<StateGroupList>
-											<StateGroupInfo MusicSyncType="3">
-												<StateGroupRef Name="ST_Time" ID="{EC2E261E-2C20-4725-A621-723BEB9A61CB}"/>
-											</StateGroupInfo>
-										</StateGroupList>
-										<CustomStateList>
-											<CustomState>
-												<StateRef Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
-												<State Name="" ID="{5A93BFD6-9FD4-4DD1-9569-16A30E95D1F0}" ShortID="161294149"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
-												<State Name="" ID="{A31C4AAB-C353-407F-AAF9-D3CDB8F644A3}" ShortID="141941914">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="3"/>
-													</PropertyList>
-												</State>
-											</CustomState>
-										</CustomStateList>
-									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{D2B55444-E9D1-4761-807E-1AAA690A6CC7}">
 											<PropertyList>
@@ -125,24 +104,8 @@
 											<StateGroupInfo MusicSyncType="3">
 												<StateGroupRef Name="ST_Player_Confort" ID="{85CA95DD-7656-4A84-A304-4DD73A70B7A9}"/>
 											</StateGroupInfo>
-											<StateGroupInfo MusicSyncType="3">
-												<StateGroupRef Name="ST_Time" ID="{EC2E261E-2C20-4725-A621-723BEB9A61CB}"/>
-											</StateGroupInfo>
 										</StateGroupList>
 										<CustomStateList>
-											<CustomState>
-												<StateRef Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
-												<State Name="" ID="{74A3CD82-3A58-4C66-99F6-214C9EE55AF7}" ShortID="456598711"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
-												<State Name="" ID="{67808754-5708-48B1-86C8-893A0953D464}" ShortID="42502312">
-													<PropertyList>
-														<Property Name="Lowpass" Type="int16" Value="45"/>
-														<Property Name="Volume" Type="Real64" Value="-9"/>
-													</PropertyList>
-												</State>
-											</CustomState>
 											<CustomState>
 												<StateRef Name="Yes" ID="{2663488A-2F78-4993-8225-163E7F327CD6}"/>
 												<State Name="" ID="{6E94FE97-4FD8-4E05-B6B2-D1C2A49A07C9}" ShortID="940746094"/>
@@ -202,28 +165,6 @@
 											<AudioFile>04-HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
-									<StateInfo>
-										<StateGroupList>
-											<StateGroupInfo MusicSyncType="3">
-												<StateGroupRef Name="ST_Time" ID="{EC2E261E-2C20-4725-A621-723BEB9A61CB}"/>
-											</StateGroupInfo>
-										</StateGroupList>
-										<CustomStateList>
-											<CustomState>
-												<StateRef Name="Day" ID="{A363C173-FD7C-41E7-B4C1-1C72D469A979}"/>
-												<State Name="" ID="{4C18225B-291B-4A67-AE22-833CF6446208}" ShortID="59985332"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Night" ID="{CEF0485F-B7F7-498A-8938-0444CA181D62}"/>
-												<State Name="" ID="{E9BB00E3-9163-468B-B408-C3F5A13B846F}" ShortID="914788374">
-													<PropertyList>
-														<Property Name="Lowpass" Type="int16" Value="45"/>
-														<Property Name="Volume" Type="Real64" Value="-10.5"/>
-													</PropertyList>
-												</State>
-											</CustomState>
-										</CustomStateList>
-									</StateInfo>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{A8B9671E-DFF3-4C13-A558-D41483DCD829}">
 											<PropertyList>
