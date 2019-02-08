@@ -542,7 +542,7 @@
 													<Language>SFX</Language>
 													<AudioFile>SFX_Door_Close_-_190206_2312-01.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="566161895"/>
+														<File Platform="Windows" ID="566161895"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -583,7 +583,7 @@
 													<Language>SFX</Language>
 													<AudioFile>SFX_Door_Close_-_190206_2312-01.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="238797332"/>
+														<File Platform="Windows" ID="238797332"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>

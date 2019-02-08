@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Linux" BasePlatform="Linux" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Linux\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\GeneratedSoundBanks\Linux\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\GeneratedSoundBanks\Linux</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1185755620" Name="Env_Greet_Mean" ObjectPath="\Events\Default Work Unit\Environnement\Env_Greet_Mean"/>
+				<Event Id="1954323868" Name="Env_Greet_Nice" ObjectPath="\Events\Default Work Unit\Environnement\Env_Greet_Nice"/>
+				<Event Id="3473760295" Name="Env_Room_Enter" ObjectPath="\Events\Default Work Unit\Environnement\Env_Room_Enter"/>
+				<Event Id="3615062280" Name="Env_Room_Leave" ObjectPath="\Events\Default Work Unit\Environnement\Env_Room_Leave"/>
+				<Event Id="733168346" Name="Game_Start" ObjectPath="\Events\Default Work Unit\Game_Start"/>
+				<Event Id="2319977171" Name="P_Sleep" ObjectPath="\Events\Default Work Unit\Player\P_Sleep" MaxAttenuation="0.000000"/>
+				<Event Id="3061350027" Name="P_Success" ObjectPath="\Events\Default Work Unit\Player\P_Success"/>
+				<Event Id="1065524949" Name="P_Walk" ObjectPath="\Events\Default Work Unit\Player\P_Walk"/>
+				<Event Id="4256079544" Name="P_Walk_Stop" ObjectPath="\Events\Default Work Unit\Player\P_Walk_Stop" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="147031736" Language="SFX">
+					<ShortName>SFX_20-SFX_Greet_Nice_P1_-190206_2257-01.wav</ShortName>
+					<Path>SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-01_7601114A.wem</Path>
+				</File>
+				<File Id="210929948" Language="SFX">
+					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001.wav</ShortName>
+					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001_56D34C19.wem</Path>
+				</File>
+				<File Id="238797332" Language="SFX">
+					<ShortName>SFX_Door_Close_-_190206_2312-01.wav</ShortName>
+					<Path>SFX\SFX_Door_Close_-_190206_2312-01_82DD1F87.wem</Path>
+				</File>
+				<File Id="296990318" Language="SFX">
+					<ShortName>SFX_Door_Open_-_190206_2312.wav</ShortName>
+					<Path>SFX\SFX_Door_Open_-_190206_2312_1A83B4E0.wem</Path>
+				</File>
+				<File Id="340150019" Language="SFX">
+					<ShortName>SFX_22-SFX_Greet_Nice_P2_-190207_1940.wav</ShortName>
+					<Path>SFX\SFX_22-SFX_Greet_Nice_P2_-190207_1940_5C1C3765.wem</Path>
+				</File>
+				<File Id="363381608" Language="SFX">
+					<ShortName>SFX_20-SFX_Greet_Nice_P1_-190206_2257-04.wav</ShortName>
+					<Path>SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-04_C6EC1258.wem</Path>
+				</File>
+				<File Id="459188833" Language="SFX">
+					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003.wav</ShortName>
+					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-003_56D34C19.wem</Path>
+				</File>
+				<File Id="475973611" Language="SFX">
+					<ShortName>08-CONFORT - PIANO-190127_1259_-_Comf_The_Game_-_ZIK_v1.wav</ShortName>
+					<Path>SFX\08-CONFORT - PIANO-190127_1259_-_Comf_The_Game_-_ZIK_v1_0CBEF50C.wem</Path>
+				</File>
+				<File Id="566161895" Language="SFX">
+					<ShortName>SFX_Door_Close_-_190206_2312-01.wav</ShortName>
+					<Path>SFX\SFX_Door_Close_-_190206_2312-01_ED637E89.wem</Path>
+				</File>
+				<File Id="585563920" Language="SFX">
+					<ShortName>04-HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001.wav</ShortName>
+					<Path>SFX\04-HARP-190127_1259_-_Comf_The_Game_-_ZIK_v1-001_0CBEF50C.wem</Path>
+				</File>
+				<File Id="613715007" Language="SFX">
+					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-006.wav</ShortName>
+					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-006_56D34C19.wem</Path>
+				</File>
+				<File Id="743935954" Language="SFX">
+					<ShortName>SFX_20-SFX_Greet_Nice_P1_-190207_1940.wav</ShortName>
+					<Path>SFX\SFX_20-SFX_Greet_Nice_P1_-190207_1940_56D34C19.wem</Path>
+				</File>
+				<File Id="766159121" Language="SFX">
+					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-004.wav</ShortName>
+					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-004_56D34C19.wem</Path>
+				</File>
+				<File Id="835582807" Language="SFX">
+					<ShortName>06-HOME - MUSIC BOX-190127_1259_-_Comf_The_Game_-_ZIK_v1-001.wav</ShortName>
+					<Path>SFX\06-HOME - MUSIC BOX-190127_1259_-_Comf_The_Game_-_ZIK_v1-001_0CBEF50C.wem</Path>
+				</File>
+				<File Id="851105092" Language="SFX">
+					<ShortName>02-BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001.wav</ShortName>
+					<Path>SFX\02-BELLS-190127_1259_-_Comf_The_Game_-_ZIK_v1-001_0CBEF50C.wem</Path>
+				</File>
+				<File Id="867255748" Language="SFX">
+					<ShortName>SFX_Player_Comfort_Create_-_190126_21h17.wav</ShortName>
+					<Path>SFX\SFX_Player_Comfort_Create_-_190126_21h17_56D34C19.wem</Path>
+				</File>
+				<File Id="898649096" Language="SFX">
+					<ShortName>SFX_Greetings_Mean-190127_0008.wav</ShortName>
+					<Path>SFX\SFX_Greetings_Mean-190127_0008_56D34C19.wem</Path>
+				</File>
+				<File Id="908068609" Language="SFX">
+					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-002.wav</ShortName>
+					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-002_56D34C19.wem</Path>
+				</File>
+				<File Id="917465485" Language="SFX">
+					<ShortName>Sleep_-_190203_1904_-_Comf_The_Game.wav</ShortName>
+					<Path>SFX\Sleep_-_190203_1904_-_Comf_The_Game_0CBEF50C.wem</Path>
+				</File>
+				<File Id="967445526" Language="SFX">
+					<ShortName>SFX_22-SFX_Greet_Nice_P2_-190206_2257-01.wav</ShortName>
+					<Path>SFX\SFX_22-SFX_Greet_Nice_P2_-190206_2257-01_F92B33F7.wem</Path>
+				</File>
+				<File Id="1063141169" Language="SFX">
+					<ShortName>Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-005.wav</ShortName>
+					<Path>SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-005_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
