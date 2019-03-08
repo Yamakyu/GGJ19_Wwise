@@ -17,8 +17,27 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Bus_SFX" ID="{927138BA-A980-4934-B3A9-8985E0E1CD77}"/>
+						<Bus Name="Bus_SFX" ID="{927138BA-A980-4934-B3A9-8985E0E1CD77}">
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Bus_Music" ID="{0F47FC40-E6CA-4E24-8840-EBC653245852}"/>
+									<DuckingParam>
+										<Volume>-2</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
 						<Bus Name="Bus_Music" ID="{0F47FC40-E6CA-4E24-8840-EBC653245852}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0">
 									<Custom>
@@ -246,12 +265,12 @@
 								</Reference>
 							</ReferenceList>
 						</Bus>
-						<Bus Name="sleep" ID="{D64CDE6C-22EB-4691-ADCB-408DDE305D5C}">
+						<Bus Name="Ducker_Sleep_&amp;_SFX" ID="{D64CDE6C-22EB-4691-ADCB-408DDE305D5C}">
 							<DuckingList>
 								<DuckItem>
 									<BusRef Name="Bus_Music" ID="{0F47FC40-E6CA-4E24-8840-EBC653245852}"/>
 									<DuckingParam>
-										<Volume>-1.5</Volume>
+										<Volume>-2</Volume>
 										<FadeInTime>2.5</FadeInTime>
 										<FadeOutTime>0.5</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>

@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1954323868	Env_Greet_Nice			\Default Work Unit\Environnement\Env_Greet_Nice	
 	2319977171	P_Sleep			\Default Work Unit\Player\P_Sleep	
 	3061350027	P_Success			\Default Work Unit\Player\P_Success	
+	3465507857	Env_Dialog			\Default Work Unit\Environnement\Env_Dialog	
 	3473760295	Env_Room_Enter			\Default Work Unit\Environnement\Env_Room_Enter	
 	3615062280	Env_Room_Leave			\Default Work Unit\Environnement\Env_Room_Leave	
 	4256079544	P_Walk_Stop			\Default Work Unit\Player\P_Walk_Stop	
@@ -34,6 +35,8 @@ Effect plug-ins	ID	Name	Type				Notes
 	3358037258	Delay_Mean	Wwise Delay			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4721491	SFX_Dialog_3_-_190308_1407	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Dialog_3_-_190308_1407_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Dialog\SFX_Dialog_3_-_190308_1407		21508
+	93691512	SFX_Dialog_2_-_190308_1407	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Dialog_2_-_190308_1407_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Dialog\SFX_Dialog_2_-_190308_1407		22492
 	147031736	Greet_Nice_P1_-190206_2257-01	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-01_7601114A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Environment\Greetings Nice\Greet_Nice_P1\Greet_Nice_P1_-190206_2257-01		92172
 	210929948	SFX_Player_Footsteps_-_v2_190126_2144-001	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Footsteps v2\SFX_Player_Footsteps_-_v2_190126_2144-001		110156
 	238797332	Shut_Door_Close_-_190206_2312-01_01	C:\Users\abdoul-jabar.mayaki\Documents\MASTER 1\_PROJETS\2019-01-26_[GGJ_19]\GGJ19_Wwise\GGJ19_SD_ZIK\.cache\Windows\SFX\SFX_Door_Close_-_190206_2312-01_ED637E89.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\Player\Door_close\Shut_Door_Close_-_190206_2312-01_01		194420

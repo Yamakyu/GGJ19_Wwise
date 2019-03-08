@@ -21,6 +21,7 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3465507857" Name="Env_Dialog" ObjectPath="\Events\Default Work Unit\Environnement\Env_Dialog"/>
 				<Event Id="1185755620" Name="Env_Greet_Mean" ObjectPath="\Events\Default Work Unit\Environnement\Env_Greet_Mean"/>
 				<Event Id="1954323868" Name="Env_Greet_Nice" ObjectPath="\Events\Default Work Unit\Environnement\Env_Greet_Nice"/>
 				<Event Id="3473760295" Name="Env_Room_Enter" ObjectPath="\Events\Default Work Unit\Environnement\Env_Room_Enter"/>
@@ -32,6 +33,14 @@
 				<Event Id="4256079544" Name="P_Walk_Stop" ObjectPath="\Events\Default Work Unit\Player\P_Walk_Stop" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="4721491" Language="SFX">
+					<ShortName>SFX_Dialog_3_-_190308_1407.wav</ShortName>
+					<Path>SFX\SFX_Dialog_3_-_190308_1407_56D34C19.wem</Path>
+				</File>
+				<File Id="93691512" Language="SFX">
+					<ShortName>SFX_Dialog_2_-_190308_1407.wav</ShortName>
+					<Path>SFX\SFX_Dialog_2_-_190308_1407_56D34C19.wem</Path>
+				</File>
 				<File Id="147031736" Language="SFX">
 					<ShortName>SFX_20-SFX_Greet_Nice_P1_-190206_2257-01.wav</ShortName>
 					<Path>SFX\SFX_20-SFX_Greet_Nice_P1_-190206_2257-01_7601114A.wem</Path>

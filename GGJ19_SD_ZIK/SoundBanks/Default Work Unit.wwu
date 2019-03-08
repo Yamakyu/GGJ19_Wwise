@@ -13,6 +13,7 @@
 						<ObjectRef Name="Env_Room_Leave" ID="{6C6B070A-14E0-4A27-BD79-450BA8A7885C}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P_Success" ID="{8D371FCA-1D30-4A49-A626-DCF93EAAE609}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P_Walk" ID="{7AF8896A-01DA-4D1B-9D19-978039F91224}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Env_Dialog" ID="{DCABBA71-CF9C-4D88-9830-CE3DB3EAA8AE}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Env_Greet_Nice" ID="{552B5C25-08FE-4EAA-8910-6472CD586465}" WorkUnitID="{24B1B473-4DF9-4EB5-9DE3-DE164073079A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
