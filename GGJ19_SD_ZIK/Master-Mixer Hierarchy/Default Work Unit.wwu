@@ -34,7 +34,7 @@
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>-0.5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -270,7 +270,7 @@
 								<DuckItem>
 									<BusRef Name="Bus_Music" ID="{0F47FC40-E6CA-4E24-8840-EBC653245852}"/>
 									<DuckingParam>
-										<Volume>-2</Volume>
+										<Volume>-1.5</Volume>
 										<FadeInTime>2.5</FadeInTime>
 										<FadeOutTime>0.5</FadeOutTime>
 										<FadeCurve>FadeLinear</FadeCurve>
